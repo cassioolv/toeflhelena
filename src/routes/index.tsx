@@ -1,23 +1,76 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { useState } from "react";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { ExamRunner } from "@/components/exam/ExamRunner";
+import { newAttempt, useExamData } from "@/lib/exam/store";
+import { SECTIONS } from "@/lib/exam/types";
+import video from "@/assets/gordao_msn.mp4.asset.json";
 
-// The home route ships no og:image, so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Welcome, Helena! — TOEFL ITP Helena Edition" },
+      { name: "description", content: "Simulado particular de inglês inspirado no TOEFL ITP Level 1." },
+      { property: "og:title", content: "TOEFL ITP — Helena Edition" },
+      { property: "og:description", content: "Simulado particular de inglês inspirado no TOEFL ITP Level 1." },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
+  const { ready, bank, attempt, setAttempt } = useExamData();
+  const [phase, setPhase] = useState<"idle" | "video" | "message">("idle");
+  const [videoError, setVideoError] = useState(false);
+
+  if (!ready) return <div className="min-h-screen bg-hero" />;
+  if (attempt?.stage === "exam") return <ExamRunner questions={bank.questions} attempt={attempt} setAttempt={setAttempt} />;
+
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="flex min-h-screen flex-col bg-hero text-primary-foreground">
+      <main className="flex flex-1 flex-col items-center justify-center px-6 text-center">
+        <p className="text-sm uppercase tracking-[0.35em] text-gold">TOEFL ITP — Helena Edition</p>
+        <div className="gold-rule my-6 w-48" />
+        <h1 className="text-6xl font-semibold md:text-8xl">Welcome, Helena!</h1>
+        <p className="mt-6 max-w-lg text-lg opacity-80">
+          Simulado de 140 questões em três seções: Listening, Structure and Written Expression e Reading.
+        </p>
+        <div className="mt-10 flex gap-8 text-sm opacity-80">
+          {SECTIONS.map((s) => <div key={s.id}><p className="font-display text-3xl text-gold">{s.minutes}′</p><p>{s.name.split(" ")[0]}</p></div>)}
+        </div>
+        <div className="mt-12 flex flex-col items-center gap-4">
+          <Button size="lg" variant="secondary" className="h-14 px-10 text-lg" onClick={() => setPhase("video")}>Iniciar Simulado</Button>
+          {attempt?.stage === "done" && <Link to="/resultado" className="text-sm text-gold underline-offset-4 hover:underline">Ver resultado da última prova</Link>}
+        </div>
+        {bank.demo && <p className="mt-8 max-w-md text-xs opacity-60">Modo demonstração: o banco definitivo de questões ainda não foi importado.</p>}
+      </main>
+      <footer className="px-6 py-4 text-center text-xs opacity-50">
+        Simulado particular, não oficial e sem vínculo com a ETS. · <Link to="/admin" className="underline">Administração</Link>
+      </footer>
+
+      <Dialog open={phase !== "idle"} onOpenChange={(o) => !o && setPhase("idle")}>
+        <DialogContent className="max-w-2xl overflow-hidden">
+          <DialogTitle className="sr-only">Surpresa</DialogTitle>
+          {phase === "video" && (videoError ? (
+            <div className="space-y-4 p-2">
+              <p className="rounded-md border border-dashed border-gold bg-gold-soft p-4 text-sm">
+                <strong>Aviso ao administrador:</strong> o vídeo "gordao msn.mp4" não pôde ser carregado. Verifique o arquivo do projeto.
+              </p>
+              <Button onClick={() => setPhase("message")}>Continuar</Button>
+            </div>
+          ) : (
+            <video src={video.url} autoPlay controls playsInline className="w-full rounded-md"
+              onEnded={() => setPhase("message")} onError={() => setVideoError(true)} />
+          ))}
+          {phase === "message" && (
+            <div className="space-y-8 py-8 text-center">
+              <p className="font-display text-4xl font-semibold">KKKKKK te amo, meu amor! ❤️ Boa prova!</p>
+              <Button size="lg" onClick={() => { setAttempt(newAttempt(bank.demo)); setPhase("idle"); }}>Agora é sério!</Button>
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
