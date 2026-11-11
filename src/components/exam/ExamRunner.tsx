@@ -12,7 +12,8 @@ const fmt = (ms: number) => { const s = Math.max(0, Math.ceil(ms / 1000)); retur
 
 export function ExamRunner({ questions, attempt, setAttempt }: { questions: Question[]; attempt: Attempt; setAttempt: (u: (a: Attempt | null) => Attempt | null) => void }) {
   const navigate = useNavigate();
-  const section = SECTIONS[attempt.sectionIdx]!;
+  const section = SECTIONS[attempt.sectionIdx] ?? SECTIONS.find((s) => s.id === "listening");
+  if (!section) throw new Error("Nenhuma seção configurada.");
   const qs = useMemo(() => questions.filter((q) => q.section === section.id), [questions, section.id]);
   const idx = Math.min(attempt.cursor[section.id] ?? 0, Math.max(qs.length - 1, 0));
   const q = qs[idx];
@@ -25,6 +26,7 @@ export function ExamRunner({ questions, attempt, setAttempt }: { questions: Ques
     if (remaining <= 0) setAttempt((a) => (a && a.sectionIdx === attempt.sectionIdx ? advanceSection(a) : a));
   }, [remaining <= 0, attempt.sectionIdx]);
   useEffect(() => { if (attempt.stage === "done") navigate({ to: "/resultado" }); }, [attempt.stage]);
+  useEffect(() => { setConfirm(false); }, [attempt.sectionIdx]);
 
   const patch = (fn: (a: Attempt) => Attempt) => setAttempt((a) => (a ? fn(a) : a));
   const go = (i: number) => patch((a) => ({ ...a, cursor: { ...a.cursor, [section.id]: i } }));
@@ -61,7 +63,7 @@ export function ExamRunner({ questions, attempt, setAttempt }: { questions: Ques
               </Button>
             </div>
             {q.section === "listening" && (
-              <AudioPlayer key={q.audioId ?? q.id} src={q.audioUrl} maxPlays={q.maxPlays} plays={attempt.plays[q.audioId ?? q.id] ?? 0}
+              <AudioPlayer key={q.audioId ?? q.id} src={q.audioUrl} transcript={q.transcript} maxPlays={q.maxPlays} plays={attempt.plays[q.audioId ?? q.id] ?? 0}
                 onPlay={() => patch((a) => ({ ...a, plays: { ...a.plays, [q.audioId ?? q.id]: (a.plays[q.audioId ?? q.id] ?? 0) + 1 } }))} />
             )}
             {q.passage && q.section === "reading" && (

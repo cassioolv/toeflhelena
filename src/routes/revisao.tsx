@@ -12,6 +12,8 @@ export const Route = createFileRoute("/revisao")({
     { name: "description", content: "Revisão de cada questão com gabarito e explicações." },
     { property: "og:title", content: "Revisão — TOEFL ITP Helena Edition" },
     { property: "og:description", content: "Revisão de cada questão com gabarito e explicações." },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
   ] }),
   component: Review,
 });

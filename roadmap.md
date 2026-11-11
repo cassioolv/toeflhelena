@@ -1,3 +1,5 @@
 - [x] Build exam app
 - [x] Video surprise as overlay (no modal/controls)
-- [ ] Import 140 real questions + audios (waiting on content)
+- [ ] Integrate supplied static bank and validate all 140 answer keys and asset links
+- [ ] Add browser-synthesized Listening audio without transcripts during the exam
+- [ ] Verify saved progress, timers, results, and full review without changing the welcome/surprise

@@ -14,6 +14,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Simulado particular de inglês inspirado no TOEFL ITP Level 1." },
       { property: "og:title", content: "TOEFL ITP — Helena Edition" },
       { property: "og:description", content: "Simulado particular de inglês inspirado no TOEFL ITP Level 1." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Index,

@@ -32,3 +32,6 @@ use the editor.
 ## Project rules
 - Exam state and imported question bank live in browser localStorage (src/lib/exam/store.ts); no backend, so resume works per browser.
 - Scoring is deterministic in src/lib/exam/logic.ts (no AI); covered by logic.test.ts.
+- The bundled assets/questions JSON is the default bank; normalize it at validation so existing exam and review components share the same question model.
+- Listening falls back to browser speech synthesis only when no media URL exists; scripts are rendered only in the finished review to avoid revealing them during the exam.
+- Discard legacy demo attempts when loading the complete bank because their question IDs and scores are incompatible.

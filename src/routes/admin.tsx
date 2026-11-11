@@ -14,6 +14,8 @@ export const Route = createFileRoute("/admin")({
     { name: "description", content: "Importação e validação do banco de questões." },
     { property: "og:title", content: "Administração — TOEFL ITP Helena Edition" },
     { property: "og:description", content: "Importação e validação do banco de questões." },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
   ] }),
   component: Admin,
 });
@@ -87,7 +89,7 @@ function Panel() {
           </div>
           <div className="mt-4 flex flex-wrap gap-3">
             <Button variant="outline" onClick={() => checkMedia(bank.questions)}>Verificar áudios</Button>
-            {!bank.demo && <Button variant="outline" onClick={() => { if (confirm("Remover o banco importado e voltar aos exemplos?")) { clearBank(); setBank(loadBank()); } }}>Remover banco importado</Button>}
+            {!bank.demo && <Button variant="outline" onClick={() => { if (confirm("Remover o banco importado e restaurar as 140 questões originais?")) { clearBank(); setBank(loadBank()); } }}>Restaurar banco original</Button>}
             <Button variant="outline" onClick={() => { if (confirm("Apagar a prova em andamento/resultado salvo?")) { saveAttempt(null); toast.success("Tentativa apagada."); } }}>Apagar tentativa salva</Button>
           </div>
           {Object.keys(media).length > 0 && (

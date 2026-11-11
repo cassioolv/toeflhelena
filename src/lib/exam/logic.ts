@@ -1,4 +1,5 @@
 import { CEFR_ORDER, CEFR_TARGET, LETTERS, SECTIONS, TOTAL_QUESTIONS, type Cefr, type Letter, type Question, type SectionId } from "./types";
+import { normalizeBank } from "./bank-format";
 
 /** Group by section, then sort by CEFR progression (stable). */
 export function orderQuestions(qs: Question[]): Question[] {
@@ -14,7 +15,8 @@ export interface ValidationResult { errors: string[]; warnings: string[]; questi
 export function validateBank(raw: unknown, { requireComplete = true } = {}): ValidationResult {
   const errors: string[] = [];
   const warnings: string[] = [];
-  const list = Array.isArray(raw) ? raw : (raw as { questions?: unknown })?.questions;
+  const normalized = normalizeBank(raw);
+  const list = Array.isArray(normalized) ? normalized : (normalized as { questions?: unknown })?.questions;
   if (!Array.isArray(list)) return { errors: ["O JSON deve ser uma lista de questões ou { questions: [...] }."], warnings, questions: [] };
   const ids = new Set<string>();
   const prompts = new Set<string>();
@@ -39,7 +41,7 @@ export function validateBank(raw: unknown, { requireComplete = true } = {}): Val
     });
     if (!q.skill) errors.push(`${tag}: falta habilidade/tema.`);
     if (q.section === "listening") {
-      if (!q.audioUrl) errors.push(`${tag}: Listening sem áudio.`);
+      if (!q.audioUrl && !q.transcript) errors.push(`${tag}: Listening sem áudio ou roteiro para voz sintetizada.`);
       if (!q.transcript) warnings.push(`${tag}: Listening sem transcrição para a revisão.`);
     }
     if (q.section === "reading" && !q.passage) errors.push(`${tag}: Reading sem texto-base.`);
