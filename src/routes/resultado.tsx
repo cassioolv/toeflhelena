@@ -11,6 +11,8 @@ export const Route = createFileRoute("/resultado")({
     { name: "description", content: "Desempenho por seção e nível CEFR no simulado." },
     { property: "og:title", content: "Resultado — TOEFL ITP Helena Edition" },
     { property: "og:description", content: "Desempenho por seção e nível CEFR no simulado." },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
   ] }),
   component: Result,
 });
@@ -40,6 +42,7 @@ function Result() {
         <p className="text-xs uppercase tracking-[0.3em] text-gold">Resultado do simulado</p>
         <h1 className="mt-3 text-6xl font-semibold">{s.correct} <span className="text-3xl opacity-70">/ {s.total}</span></h1>
         <p className="mt-2 text-xl">{s.pct}% de acertos</p>
+        <p className="mt-2 text-sm opacity-80">{s.total - s.correct} erros (incluindo questões sem resposta)</p>
         {attempt.usesDemo && <p className="mt-4 text-sm opacity-70">Resultado de demonstração ({s.total} questões de exemplo, não 140).</p>}
       </header>
       <main className="mx-auto max-w-5xl space-y-8 px-6 py-10">
