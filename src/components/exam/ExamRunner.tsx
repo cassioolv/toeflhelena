@@ -12,7 +12,7 @@ const fmt = (ms: number) => { const s = Math.max(0, Math.ceil(ms / 1000)); retur
 
 export function ExamRunner({ questions, attempt, setAttempt }: { questions: Question[]; attempt: Attempt; setAttempt: (u: (a: Attempt | null) => Attempt | null) => void }) {
   const navigate = useNavigate();
-  const section = SECTIONS[attempt.sectionIdx];
+  const section = SECTIONS[attempt.sectionIdx]!;
   const qs = useMemo(() => questions.filter((q) => q.section === section.id), [questions, section.id]);
   const idx = Math.min(attempt.cursor[section.id] ?? 0, Math.max(qs.length - 1, 0));
   const q = qs[idx];
