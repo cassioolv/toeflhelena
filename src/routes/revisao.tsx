@@ -51,7 +51,7 @@ function Review() {
   );
 }
 
-function Item({ q, n, chosen }: { q: Question; n: number; chosen?: string }) {
+function Item({ q, n, chosen }: { q: Question; n: number; chosen?: string | undefined }) {
   const ok = chosen === q.correct;
   return (
     <article className="space-y-4 rounded-md border bg-card p-6">

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Pause, Play, Volume2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export function AudioPlayer({ src, plays, maxPlays, onPlay }: { src?: string; plays: number; maxPlays?: number; onPlay: () => void }) {
+export function AudioPlayer({ src, plays, maxPlays, onPlay }: { src?: string | undefined; plays: number; maxPlays?: number | undefined; onPlay: () => void }) {
   const ref = useRef<HTMLAudioElement>(null);
   const [playing, setPlaying] = useState(false);
   const [progress, setProgress] = useState(0);

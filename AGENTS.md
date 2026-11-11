@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Exam state and imported question bank live in browser localStorage (src/lib/exam/store.ts); no backend, so resume works per browser.
+- Scoring is deterministic in src/lib/exam/logic.ts (no AI); covered by logic.test.ts.

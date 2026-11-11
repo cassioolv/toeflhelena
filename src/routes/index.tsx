@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
+import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ExamRunner } from "@/components/exam/ExamRunner";
 import { newAttempt, useExamData } from "@/lib/exam/store";
@@ -23,6 +23,7 @@ function Index() {
   const { ready, bank, attempt, setAttempt } = useExamData();
   const [phase, setPhase] = useState<"idle" | "video" | "message">("idle");
   const [videoError, setVideoError] = useState(false);
+  const [fading, setFading] = useState(false);
 
   if (!ready) return <div className="min-h-screen bg-hero" />;
   if (attempt?.stage === "exam") return <ExamRunner questions={bank.questions} attempt={attempt} setAttempt={setAttempt} />;
@@ -40,7 +41,7 @@ function Index() {
           {SECTIONS.map((s) => <div key={s.id}><p className="font-display text-3xl text-gold">{s.minutes}′</p><p>{s.name.split(" ")[0]}</p></div>)}
         </div>
         <div className="mt-12 flex flex-col items-center gap-4">
-          <Button size="lg" variant="secondary" className="h-14 px-10 text-lg" onClick={() => setPhase("video")}>Iniciar Simulado</Button>
+          <Button size="lg" variant="secondary" className="h-14 px-10 text-lg" onClick={() => { setFading(false); setVideoError(false); setPhase("video"); }}>Iniciar Simulado</Button>
           {attempt?.stage === "done" && <Link to="/resultado" className="text-sm text-gold underline-offset-4 hover:underline">Ver resultado da última prova</Link>}
         </div>
         {bank.demo && <p className="mt-8 max-w-md text-xs opacity-60">Modo demonstração: o banco definitivo de questões ainda não foi importado.</p>}
@@ -49,28 +50,30 @@ function Index() {
         Simulado particular, não oficial e sem vínculo com a ETS. · <Link to="/admin" className="underline">Administração</Link>
       </footer>
 
-      <Dialog open={phase !== "idle"} onOpenChange={(o) => !o && setPhase("idle")}>
-        <DialogContent className="max-w-2xl overflow-hidden">
-          <DialogTitle className="sr-only">Surpresa</DialogTitle>
-          {phase === "video" && (videoError ? (
-            <div className="space-y-4 p-2">
-              <p className="rounded-md border border-dashed border-gold bg-gold-soft p-4 text-sm">
-                <strong>Aviso ao administrador:</strong> o vídeo "gordao msn.mp4" não pôde ser carregado. Verifique o arquivo do projeto.
-              </p>
+      {phase !== "idle" && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center">
+          <div className={cn("absolute inset-0 bg-primary/70 backdrop-blur-sm transition-opacity duration-700", phase === "message" && "bg-primary/90")} />
+          {phase === "video" && !videoError && (
+            <video src={video.url} autoPlay playsInline controls={false} disablePictureInPicture
+              onEnded={() => setPhase("message")} onError={() => setVideoError(true)}
+              onContextMenu={(e) => e.preventDefault()}
+              className={cn("wink-video pointer-events-none relative h-[85vh] max-w-[95vw] object-contain transition-opacity duration-700", fading && "opacity-0")}
+              onTimeUpdate={(e) => { const v = e.currentTarget; if (v.duration && v.duration - v.currentTime < 0.7) setFading(true); }} />
+          )}
+          {phase === "video" && videoError && (
+            <div className="relative max-w-md space-y-4 rounded-md bg-card p-6 text-foreground">
+              <p className="text-sm"><strong>Aviso ao administrador:</strong> o vídeo "gordao msn.mp4" não pôde ser carregado.</p>
               <Button onClick={() => setPhase("message")}>Continuar</Button>
             </div>
-          ) : (
-            <video src={video.url} autoPlay controls playsInline className="w-full rounded-md"
-              onEnded={() => setPhase("message")} onError={() => setVideoError(true)} />
-          ))}
+          )}
           {phase === "message" && (
-            <div className="space-y-8 py-8 text-center">
-              <p className="font-display text-4xl font-semibold">KKKKKK te amo, meu amor! ❤️ Boa prova!</p>
-              <Button size="lg" onClick={() => { setAttempt(newAttempt(bank.demo)); setPhase("idle"); }}>Agora é sério!</Button>
+            <div className="relative animate-in fade-in zoom-in-95 space-y-8 px-6 text-center duration-700">
+              <p className="font-display text-5xl font-semibold">KKKKKK te amo, meu amor! ❤️ Boa prova!</p>
+              <Button size="lg" variant="secondary" className="h-14 px-10 text-lg" onClick={() => { setAttempt(newAttempt(bank.demo)); setPhase("idle"); }}>Agora é sério!</Button>
             </div>
           )}
-        </DialogContent>
-      </Dialog>
+        </div>
+      )}
     </div>
   );
 }

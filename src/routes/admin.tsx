@@ -35,10 +35,10 @@ function Admin() {
       <div className="flex min-h-screen items-center justify-center bg-hero px-6">
         <form className="w-full max-w-sm space-y-4 rounded-md bg-card p-8 shadow-elegant"
           onSubmit={async (e) => {
-            e.preventDefault(); if (pass.length < 4) return toast.error("Use pelo menos 4 caracteres.");
+            e.preventDefault(); if (pass.length < 4) { toast.error("Use pelo menos 4 caracteres."); return; }
             const h = await sha(pass);
             if (!hasPass) { localStorage.setItem(PASS_KEY, h); setUnlocked(true); }
-            else if (localStorage.getItem(PASS_KEY) === h) setUnlocked(true); else toast.error("Senha incorreta.");
+            else if (localStorage.getItem(PASS_KEY) === h) setUnlocked(true); else { toast.error("Senha incorreta."); }
           }}>
           <h1 className="text-3xl font-semibold">Administração</h1>
           <p className="text-sm text-muted-foreground">{hasPass ? "Digite a senha de administrador." : "Crie uma senha de administrador para este navegador."}</p>

@@ -21,7 +21,7 @@ export function validateBank(raw: unknown, { requireComplete = true } = {}): Val
   const out: Question[] = [];
   list.forEach((q: any, i) => {
     const tag = `Questão #${i + 1}${q?.id ? ` (${q.id})` : ""}`;
-    if (!q || typeof q !== "object") return errors.push(`${tag}: inválida.`);
+    if (!q || typeof q !== "object") { errors.push(`${tag}: inválida.`); return; }
     if (!q.id || typeof q.id !== "string") errors.push(`${tag}: falta "id".`);
     else if (ids.has(q.id)) errors.push(`${tag}: id duplicado.`);
     else ids.add(q.id);

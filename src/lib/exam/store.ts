@@ -37,14 +37,14 @@ export function saveAttempt(a: Attempt | null) {
 }
 
 export function newAttempt(demo: boolean, now = Date.now()): Attempt {
-  return { stage: "exam", sectionIdx: 0, sectionEndsAt: now + SECTIONS[0].minutes * 60_000, cursor: {}, answers: {}, flags: {}, plays: {}, usesDemo: demo };
+  return { stage: "exam", sectionIdx: 0, sectionEndsAt: now + SECTIONS[0]!.minutes * 60_000, cursor: {}, answers: {}, flags: {}, plays: {}, usesDemo: demo };
 }
 
 /** Move to the next section (or finish). Pure, for testing. */
 export function advanceSection(a: Attempt, now = Date.now()): Attempt {
   const next = a.sectionIdx + 1;
   if (next >= SECTIONS.length) return { ...a, stage: "done", finishedAt: now };
-  return { ...a, sectionIdx: next, sectionEndsAt: now + SECTIONS[next].minutes * 60_000 };
+  return { ...a, sectionIdx: next, sectionEndsAt: now + SECTIONS[next]!.minutes * 60_000 };
 }
 
 export function useExamData() {

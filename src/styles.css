@@ -174,3 +174,9 @@
 @utility bg-hero { background: var(--hero); }
 @utility shadow-elegant { box-shadow: var(--shadow-elegant); }
 @utility gold-rule { height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+
+/* MSN wink: fade the video's white frame edges into the page, no box */
+.wink-video {
+  mask-image: radial-gradient(ellipse 48% 50% at 50% 50%, black 70%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 48% 50% at 50% 50%, black 70%, transparent 100%);
+}
