@@ -1,0 +1,3286 @@
+{
+  "title": "Helena English Proficiency Practice — TOEFL ITP-inspired",
+  "version": "1.0",
+  "disclaimer": "Original educational practice, not an official ETS TOEFL ITP exam. CEFR labels are approximate difficulty tags, not validated score equivalences. Listening audio must be generated from scripts.",
+  "sections": [
+    {
+      "id": "Listening",
+      "minutes": 35,
+      "count": 50
+    },
+    {
+      "id": "Structure",
+      "minutes": 25,
+      "count": 40
+    },
+    {
+      "id": "Reading",
+      "minutes": 55,
+      "count": 50
+    }
+  ],
+  "assets": [
+    {
+      "id": "listening-01",
+      "section": "Listening",
+      "title": "A conversation at a café",
+      "script": "Woman: Good morning. Could I have a small coffee and a cheese sandwich? Man: Of course. Would you like the coffee hot or iced? Woman: Hot, please. Man: That will be six dollars. Woman: Here is ten dollars. Man: Here is your change. Your order will be ready in five minutes.",
+      "text": null,
+      "audioUrl": null,
+      "level": "A1"
+    },
+    {
+      "id": "listening-02",
+      "section": "Listening",
+      "title": "A library conversation",
+      "script": "Student: Excuse me, where can I find books about planets? Librarian: The science shelves are upstairs, next to the computers. Student: May I borrow three books? Librarian: Yes. You can keep them for two weeks. Student: Is the library open on Sunday? Librarian: No, but we open at nine on Saturday. Student: Thank you!",
+      "text": null,
+      "audioUrl": null,
+      "level": "A1"
+    },
+    {
+      "id": "listening-03",
+      "section": "Listening",
+      "title": "A travel announcement",
+      "script": "Attention passengers: Train 214 to Bristol will depart from platform six at 10:45, fifteen minutes later than scheduled. Passengers should keep their tickets available. The café in carriage four is closed today. Water is available free of charge from staff. We apologize for the delay caused by track maintenance.",
+      "text": null,
+      "audioUrl": null,
+      "level": "A2"
+    },
+    {
+      "id": "listening-04",
+      "section": "Listening",
+      "title": "A university orientation",
+      "script": "Advisor: Welcome to campus. First-year students must attend the safety workshop on Monday. The workshop starts at 2 p.m. in Hall B. Please bring your student card. The optional campus tour is on Tuesday morning. If you cannot attend Monday's workshop, email the student office before Friday to arrange an alternative session.",
+      "text": null,
+      "audioUrl": null,
+      "level": "A2"
+    },
+    {
+      "id": "listening-05",
+      "section": "Listening",
+      "title": "A museum lecture",
+      "script": "The curator explains that the museum's oldest clock was built in 1820. It was donated by a local family in 1975. Unlike modern clocks, it requires winding every day. Although its wooden case has been restored, the original brass mechanism remains intact. Visitors may see it in the east gallery, but photography with flash is prohibited.",
+      "text": null,
+      "audioUrl": null,
+      "level": "B1"
+    },
+    {
+      "id": "listening-06",
+      "section": "Listening",
+      "title": "A discussion of study methods",
+      "script": "Student: I reread my notes for hours, but I forget details during exams. Tutor: Try retrieving information from memory before checking your notes. Space your practice over several days rather than cramming. Student: Should I stop rereading altogether? Tutor: Not necessarily. Rereading can help initially, but it should not replace active recall. Also, explain difficult concepts to a friend.",
+      "text": null,
+      "audioUrl": null,
+      "level": "B1"
+    },
+    {
+      "id": "listening-07",
+      "section": "Listening",
+      "title": "A report on urban trees",
+      "script": "Researchers compared streets with mature trees to nearby streets without them. During summer afternoons, shaded sidewalks were substantially cooler, although the difference narrowed after sunset. The team cautioned that trees alone cannot eliminate urban heat: building materials, traffic and regional climate also matter. They recommended prioritizing neighborhoods with limited existing canopy, provided that long-term watering and maintenance could be funded.",
+      "text": null,
+      "audioUrl": null,
+      "level": "B2"
+    },
+    {
+      "id": "listening-08",
+      "section": "Listening",
+      "title": "A seminar on scientific replication",
+      "script": "Speaker: A single surprising result rarely settles a scientific debate. Replication helps determine whether findings persist under new conditions. Yet a failed replication does not automatically prove misconduct: differences in samples, measurement or context may matter. Researchers should preregister key analyses where practical and share sufficient methodological detail. Transparency makes disagreement more productive, even when uncertainty remains.",
+      "text": null,
+      "audioUrl": null,
+      "level": "B2"
+    },
+    {
+      "id": "listening-09",
+      "section": "Listening",
+      "title": "An economics colloquium",
+      "script": "Professor: When a city introduces congestion pricing, observed traffic reductions may reflect both behavioral adaptation and changes in travel demand. Evaluating the policy therefore requires a credible counterfactual, not merely a before-and-after comparison. Analysts should examine spillovers to neighboring districts and distributional effects on commuters with few alternatives. Revenue allocation may influence public acceptance, but popularity is not a substitute for evidence of effectiveness.",
+      "text": null,
+      "audioUrl": null,
+      "level": "C1"
+    },
+    {
+      "id": "listening-10",
+      "section": "Listening",
+      "title": "A philosophy of language lecture",
+      "script": "Lecturer: The distinction between what a sentence conventionally means and what a speaker communicates in context is crucial. Consider irony: an utterance may be literally complimentary while conveying criticism. Nevertheless, contextual interpretation is not unconstrained; interlocutors rely on shared expectations and publicly accessible cues. A satisfactory theory must explain both the flexibility of inference and the remarkable stability of everyday communication, without reducing either to the other.",
+      "text": null,
+      "audioUrl": null,
+      "level": "C2"
+    },
+    {
+      "id": "reading-01",
+      "section": "Reading",
+      "title": "A community garden",
+      "script": null,
+      "text": "Maya and her neighbors started a small garden behind their apartment building. They planted tomatoes, beans, and flowers. Every Saturday, the neighbors water the plants together. Maya enjoys the garden because she can meet her friends there. The first tomatoes will be ready in July.",
+      "audioUrl": null,
+      "level": "A1"
+    },
+    {
+      "id": "reading-02",
+      "section": "Reading",
+      "title": "A new bicycle",
+      "script": null,
+      "text": "Leo bought a blue bicycle last month. He rides it to work because the bus is often late. The journey takes twenty minutes by bicycle, compared with thirty-five minutes by bus. On rainy days, he still takes the bus. Leo keeps his bicycle in a locked room at his office.",
+      "audioUrl": null,
+      "level": "A1"
+    },
+    {
+      "id": "reading-03",
+      "section": "Reading",
+      "title": "An evening course",
+      "script": null,
+      "text": "The town college offers an evening photography course for adults. Classes meet on Wednesdays from six to eight. Students may use their phones or bring cameras. The course costs forty pounds and includes printed materials. Registration closes on September 12, one week before the first lesson.",
+      "audioUrl": null,
+      "level": "A2"
+    },
+    {
+      "id": "reading-04",
+      "section": "Reading",
+      "title": "The river restoration project",
+      "script": null,
+      "text": "For decades, a narrow river ran through the city inside a concrete channel. A local project removed part of the concrete and planted native vegetation along the banks. Within two years, birds returned to the area and residents began using the new walking paths. Officials emphasize that water quality still requires monitoring, particularly after heavy rainfall.",
+      "audioUrl": null,
+      "level": "A2"
+    },
+    {
+      "id": "reading-05",
+      "section": "Reading",
+      "title": "Why sleep matters for learning",
+      "script": null,
+      "text": "During sleep, the brain processes information encountered during the day. Researchers distinguish several sleep stages, each associated with different patterns of neural activity. Studies suggest that adequate sleep supports memory, but the effects depend on the kind of learning and the timing of rest. For students, regular sleep schedules are generally more useful than attempting to compensate for repeated short nights with one long sleep.",
+      "audioUrl": null,
+      "level": "B1"
+    },
+    {
+      "id": "reading-06",
+      "section": "Reading",
+      "title": "The history of public maps",
+      "script": null,
+      "text": "Early printed city maps often served administrative and commercial purposes rather than ordinary navigation. As printing became cheaper and urban populations expanded, publishers began producing maps for a broader audience. These maps increasingly marked transport routes, public buildings and street names. Nevertheless, cartographic choices were never neutral: what a map included or omitted could shape how readers understood the city.",
+      "audioUrl": null,
+      "level": "B1"
+    },
+    {
+      "id": "reading-07",
+      "section": "Reading",
+      "title": "Pollinators in fragmented habitats",
+      "script": null,
+      "text": "When natural habitats are divided into small patches, pollinating insects may struggle to move between flowering plants. Researchers studying agricultural landscapes found that corridors of native vegetation sometimes increased insect movement. However, the benefit depended on corridor width and surrounding land use. The authors therefore warned against treating any single corridor design as universally effective and urged planners to monitor outcomes over multiple seasons.",
+      "audioUrl": null,
+      "level": "B2"
+    },
+    {
+      "id": "reading-08",
+      "section": "Reading",
+      "title": "Interpreting archaeological evidence",
+      "script": null,
+      "text": "Archaeologists once attributed a sudden decline in pottery at a coastal settlement to population collapse. More recent excavations revealed that residents had begun using containers made from perishable materials, which rarely survive in the archaeological record. The revised interpretation does not establish that the population remained constant, but it undermines the assumption that fewer ceramic fragments necessarily imply fewer inhabitants. The case illustrates the danger of equating preservation with past prevalence.",
+      "audioUrl": null,
+      "level": "B2"
+    },
+    {
+      "id": "reading-09",
+      "section": "Reading",
+      "title": "The paradox of predictive models",
+      "script": null,
+      "text": "Predictive models may achieve impressive accuracy while relying on variables that are unstable across settings. A hospital model trained on historical admission practices, for instance, might inadvertently learn patterns of access to care rather than underlying illness severity. When deployed elsewhere, its performance could deteriorate even if its internal calculations remain unchanged. Robust evaluation thus requires examining the data-generating process and testing whether predictive relationships survive shifts in institutional context.",
+      "audioUrl": null,
+      "level": "C1"
+    },
+    {
+      "id": "reading-10",
+      "section": "Reading",
+      "title": "Norms, incentives and collective action",
+      "script": null,
+      "text": "The success of a collective-action policy cannot be inferred solely from whether individuals appear to comply. Some may comply because they endorse the underlying norm; others may respond to sanctions or lack feasible alternatives. These motivations have different implications for durability: behavior sustained by external enforcement may weaken if monitoring ends, whereas internalized norms can persist without constant supervision. Yet normative commitment itself is shaped by institutions, making any sharp separation between incentives and values analytically suspect.",
+      "audioUrl": null,
+      "level": "C2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "L001",
+      "section": "Listening",
+      "level": "A1",
+      "assetId": "listening-01",
+      "question": "What does the woman order?",
+      "options": {
+        "A": "A small coffee and a cheese sandwich",
+        "B": "A large coffee and cake",
+        "C": "Tea and a salad",
+        "D": "Water and a sandwich"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “A small coffee and a cheese sandwich”.",
+        "B": "“A large coffee and cake” is not supported by the passage; the relevant detail is “A small coffee and a cheese sandwich”.",
+        "C": "“Tea and a salad” is not supported by the passage; the relevant detail is “A small coffee and a cheese sandwich”.",
+        "D": "“Water and a sandwich” is not supported by the passage; the relevant detail is “A small coffee and a cheese sandwich”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "A small coffee and a cheese sandwich"
+    },
+    {
+      "id": "L002",
+      "section": "Listening",
+      "level": "A1",
+      "assetId": "listening-01",
+      "question": "How does she want her coffee?",
+      "options": {
+        "A": "At room temperature",
+        "B": "Iced",
+        "C": "Hot",
+        "D": "With no milk"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“At room temperature” is not supported by the passage; the relevant detail is “Hot”.",
+        "B": "“Iced” is not supported by the passage; the relevant detail is “Hot”.",
+        "C": "The passage explicitly supports “Hot”.",
+        "D": "“With no milk” is not supported by the passage; the relevant detail is “Hot”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Hot"
+    },
+    {
+      "id": "L003",
+      "section": "Listening",
+      "level": "A1",
+      "assetId": "listening-01",
+      "question": "How much does the order cost?",
+      "options": {
+        "A": "Four dollars",
+        "B": "Eight dollars",
+        "C": "Ten dollars",
+        "D": "Six dollars"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Four dollars” is not supported by the passage; the relevant detail is “Six dollars”.",
+        "B": "“Eight dollars” is not supported by the passage; the relevant detail is “Six dollars”.",
+        "C": "“Ten dollars” is not supported by the passage; the relevant detail is “Six dollars”.",
+        "D": "The passage explicitly supports “Six dollars”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Six dollars"
+    },
+    {
+      "id": "L004",
+      "section": "Listening",
+      "level": "A1",
+      "assetId": "listening-01",
+      "question": "How much change does she receive?",
+      "options": {
+        "A": "Four dollars",
+        "B": "Two dollars",
+        "C": "Six dollars",
+        "D": "Ten dollars"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Four dollars”.",
+        "B": "“Two dollars” is not supported by the passage; the relevant detail is “Four dollars”.",
+        "C": "“Six dollars” is not supported by the passage; the relevant detail is “Four dollars”.",
+        "D": "“Ten dollars” is not supported by the passage; the relevant detail is “Four dollars”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Four dollars"
+    },
+    {
+      "id": "L005",
+      "section": "Listening",
+      "level": "A1",
+      "assetId": "listening-01",
+      "question": "When will the order be ready?",
+      "options": {
+        "A": "In five minutes",
+        "B": "In ten minutes",
+        "C": "Tomorrow morning",
+        "D": "Immediately"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “In five minutes”.",
+        "B": "“In ten minutes” is not supported by the passage; the relevant detail is “In five minutes”.",
+        "C": "“Tomorrow morning” is not supported by the passage; the relevant detail is “In five minutes”.",
+        "D": "“Immediately” is not supported by the passage; the relevant detail is “In five minutes”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "In five minutes"
+    },
+    {
+      "id": "L006",
+      "section": "Listening",
+      "level": "A2",
+      "assetId": "listening-02",
+      "question": "What subject interests the student?",
+      "options": {
+        "A": "Music",
+        "B": "History",
+        "C": "Planets",
+        "D": "Cooking"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Music” is not supported by the passage; the relevant detail is “Planets”.",
+        "B": "“History” is not supported by the passage; the relevant detail is “Planets”.",
+        "C": "The passage explicitly supports “Planets”.",
+        "D": "“Cooking” is not supported by the passage; the relevant detail is “Planets”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Planets"
+    },
+    {
+      "id": "L007",
+      "section": "Listening",
+      "level": "A2",
+      "assetId": "listening-02",
+      "question": "Where are the relevant books?",
+      "options": {
+        "A": "Behind the café",
+        "B": "In the basement",
+        "C": "Upstairs next to the computers",
+        "D": "Near the entrance"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Behind the café” is not supported by the passage; the relevant detail is “Upstairs next to the computers”.",
+        "B": "“In the basement” is not supported by the passage; the relevant detail is “Upstairs next to the computers”.",
+        "C": "The passage explicitly supports “Upstairs next to the computers”.",
+        "D": "“Near the entrance” is not supported by the passage; the relevant detail is “Upstairs next to the computers”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Upstairs next to the computers"
+    },
+    {
+      "id": "L008",
+      "section": "Listening",
+      "level": "A2",
+      "assetId": "listening-02",
+      "question": "How many books may the student borrow?",
+      "options": {
+        "A": "Two",
+        "B": "Three",
+        "C": "Five",
+        "D": "One"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Two” is not supported by the passage; the relevant detail is “Three”.",
+        "B": "The passage explicitly supports “Three”.",
+        "C": "“Five” is not supported by the passage; the relevant detail is “Three”.",
+        "D": "“One” is not supported by the passage; the relevant detail is “Three”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Three"
+    },
+    {
+      "id": "L009",
+      "section": "Listening",
+      "level": "A2",
+      "assetId": "listening-02",
+      "question": "How long may the books be kept?",
+      "options": {
+        "A": "One month",
+        "B": "One week",
+        "C": "One day",
+        "D": "Two weeks"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“One month” is not supported by the passage; the relevant detail is “Two weeks”.",
+        "B": "“One week” is not supported by the passage; the relevant detail is “Two weeks”.",
+        "C": "“One day” is not supported by the passage; the relevant detail is “Two weeks”.",
+        "D": "The passage explicitly supports “Two weeks”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Two weeks"
+    },
+    {
+      "id": "L010",
+      "section": "Listening",
+      "level": "A2",
+      "assetId": "listening-02",
+      "question": "When does the library open on Saturday?",
+      "options": {
+        "A": "At noon",
+        "B": "At eight",
+        "C": "At ten",
+        "D": "At nine"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“At noon” is not supported by the passage; the relevant detail is “At nine”.",
+        "B": "“At eight” is not supported by the passage; the relevant detail is “At nine”.",
+        "C": "“At ten” is not supported by the passage; the relevant detail is “At nine”.",
+        "D": "The passage explicitly supports “At nine”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "At nine"
+    },
+    {
+      "id": "L011",
+      "section": "Listening",
+      "level": "A2",
+      "assetId": "listening-03",
+      "question": "What is the train number?",
+      "options": {
+        "A": "214",
+        "B": "412",
+        "C": "241",
+        "D": "124"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “214”.",
+        "B": "“412” is not supported by the passage; the relevant detail is “214”.",
+        "C": "“241” is not supported by the passage; the relevant detail is “214”.",
+        "D": "“124” is not supported by the passage; the relevant detail is “214”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "214"
+    },
+    {
+      "id": "L012",
+      "section": "Listening",
+      "level": "A2",
+      "assetId": "listening-03",
+      "question": "Where will passengers board?",
+      "options": {
+        "A": "Platform nine",
+        "B": "Platform two",
+        "C": "Platform six",
+        "D": "Platform four"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Platform nine” is not supported by the passage; the relevant detail is “Platform six”.",
+        "B": "“Platform two” is not supported by the passage; the relevant detail is “Platform six”.",
+        "C": "The passage explicitly supports “Platform six”.",
+        "D": "“Platform four” is not supported by the passage; the relevant detail is “Platform six”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Platform six"
+    },
+    {
+      "id": "L013",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-03",
+      "question": "What is the new departure time?",
+      "options": {
+        "A": "10:15",
+        "B": "10:45",
+        "C": "11:15",
+        "D": "10:30"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“10:15” is not supported by the passage; the relevant detail is “10:45”.",
+        "B": "The passage explicitly supports “10:45”.",
+        "C": "“11:15” is not supported by the passage; the relevant detail is “10:45”.",
+        "D": "“10:30” is not supported by the passage; the relevant detail is “10:45”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "10:45"
+    },
+    {
+      "id": "L014",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-03",
+      "question": "What caused the delay?",
+      "options": {
+        "A": "A medical emergency",
+        "B": "Bad weather",
+        "C": "Track maintenance",
+        "D": "A staff shortage"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“A medical emergency” is not supported by the passage; the relevant detail is “Track maintenance”.",
+        "B": "“Bad weather” is not supported by the passage; the relevant detail is “Track maintenance”.",
+        "C": "The passage explicitly supports “Track maintenance”.",
+        "D": "“A staff shortage” is not supported by the passage; the relevant detail is “Track maintenance”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Track maintenance"
+    },
+    {
+      "id": "L015",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-03",
+      "question": "What is available free of charge?",
+      "options": {
+        "A": "Coffee",
+        "B": "Water",
+        "C": "Tickets",
+        "D": "Sandwiches"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Coffee” is not supported by the passage; the relevant detail is “Water”.",
+        "B": "The passage explicitly supports “Water”.",
+        "C": "“Tickets” is not supported by the passage; the relevant detail is “Water”.",
+        "D": "“Sandwiches” is not supported by the passage; the relevant detail is “Water”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Water"
+    },
+    {
+      "id": "L016",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-04",
+      "question": "Who must attend the workshop?",
+      "options": {
+        "A": "Only graduate students",
+        "B": "Only visiting professors",
+        "C": "First-year students",
+        "D": "All campus visitors"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Only graduate students” is not supported by the passage; the relevant detail is “First-year students”.",
+        "B": "“Only visiting professors” is not supported by the passage; the relevant detail is “First-year students”.",
+        "C": "The passage explicitly supports “First-year students”.",
+        "D": "“All campus visitors” is not supported by the passage; the relevant detail is “First-year students”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "First-year students"
+    },
+    {
+      "id": "L017",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-04",
+      "question": "On what day is the workshop?",
+      "options": {
+        "A": "Thursday",
+        "B": "Friday",
+        "C": "Monday",
+        "D": "Tuesday"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Thursday” is not supported by the passage; the relevant detail is “Monday”.",
+        "B": "“Friday” is not supported by the passage; the relevant detail is “Monday”.",
+        "C": "The passage explicitly supports “Monday”.",
+        "D": "“Tuesday” is not supported by the passage; the relevant detail is “Monday”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Monday"
+    },
+    {
+      "id": "L018",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-04",
+      "question": "Where will it take place?",
+      "options": {
+        "A": "The library",
+        "B": "The sports center",
+        "C": "Hall A",
+        "D": "Hall B"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“The library” is not supported by the passage; the relevant detail is “Hall B”.",
+        "B": "“The sports center” is not supported by the passage; the relevant detail is “Hall B”.",
+        "C": "“Hall A” is not supported by the passage; the relevant detail is “Hall B”.",
+        "D": "The passage explicitly supports “Hall B”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Hall B"
+    },
+    {
+      "id": "L019",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-04",
+      "question": "What should students bring?",
+      "options": {
+        "A": "A passport",
+        "B": "A printed essay",
+        "C": "A student card",
+        "D": "A laptop"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“A passport” is not supported by the passage; the relevant detail is “A student card”.",
+        "B": "“A printed essay” is not supported by the passage; the relevant detail is “A student card”.",
+        "C": "The passage explicitly supports “A student card”.",
+        "D": "“A laptop” is not supported by the passage; the relevant detail is “A student card”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "A student card"
+    },
+    {
+      "id": "L020",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-04",
+      "question": "What should a student do if unable to attend?",
+      "options": {
+        "A": "Email the student office before Friday",
+        "B": "Skip the requirement",
+        "C": "Wait until next semester",
+        "D": "Call a classmate afterward"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Email the student office before Friday”.",
+        "B": "“Skip the requirement” is not supported by the passage; the relevant detail is “Email the student office before Friday”.",
+        "C": "“Wait until next semester” is not supported by the passage; the relevant detail is “Email the student office before Friday”.",
+        "D": "“Call a classmate afterward” is not supported by the passage; the relevant detail is “Email the student office before Friday”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Email the student office before Friday"
+    },
+    {
+      "id": "L021",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-05",
+      "question": "When was the clock built?",
+      "options": {
+        "A": "1975",
+        "B": "1820",
+        "C": "1720",
+        "D": "1920"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“1975” is not supported by the passage; the relevant detail is “1820”.",
+        "B": "The passage explicitly supports “1820”.",
+        "C": "“1720” is not supported by the passage; the relevant detail is “1820”.",
+        "D": "“1920” is not supported by the passage; the relevant detail is “1820”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "1820"
+    },
+    {
+      "id": "L022",
+      "section": "Listening",
+      "level": "B1",
+      "assetId": "listening-05",
+      "question": "Who donated the clock?",
+      "options": {
+        "A": "An international collector",
+        "B": "A university",
+        "C": "A local family",
+        "D": "The government"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“An international collector” is not supported by the passage; the relevant detail is “A local family”.",
+        "B": "“A university” is not supported by the passage; the relevant detail is “A local family”.",
+        "C": "The passage explicitly supports “A local family”.",
+        "D": "“The government” is not supported by the passage; the relevant detail is “A local family”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "A local family"
+    },
+    {
+      "id": "L023",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-05",
+      "question": "What must be done every day?",
+      "options": {
+        "A": "Replacing the batteries",
+        "B": "Painting the case",
+        "C": "Winding the clock",
+        "D": "Cleaning the glass"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Replacing the batteries” is not supported by the passage; the relevant detail is “Winding the clock”.",
+        "B": "“Painting the case” is not supported by the passage; the relevant detail is “Winding the clock”.",
+        "C": "The passage explicitly supports “Winding the clock”.",
+        "D": "“Cleaning the glass” is not supported by the passage; the relevant detail is “Winding the clock”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Winding the clock"
+    },
+    {
+      "id": "L024",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-05",
+      "question": "Which part remains original?",
+      "options": {
+        "A": "The painted numbers",
+        "B": "The wooden case",
+        "C": "The brass mechanism",
+        "D": "The glass door"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“The painted numbers” is not supported by the passage; the relevant detail is “The brass mechanism”.",
+        "B": "“The wooden case” is not supported by the passage; the relevant detail is “The brass mechanism”.",
+        "C": "The passage explicitly supports “The brass mechanism”.",
+        "D": "“The glass door” is not supported by the passage; the relevant detail is “The brass mechanism”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "The brass mechanism"
+    },
+    {
+      "id": "L025",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-05",
+      "question": "What is prohibited?",
+      "options": {
+        "A": "Visiting the east gallery",
+        "B": "Flash photography",
+        "C": "Looking closely",
+        "D": "Taking notes"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Visiting the east gallery” is not supported by the passage; the relevant detail is “Flash photography”.",
+        "B": "The passage explicitly supports “Flash photography”.",
+        "C": "“Looking closely” is not supported by the passage; the relevant detail is “Flash photography”.",
+        "D": "“Taking notes” is not supported by the passage; the relevant detail is “Flash photography”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Flash photography"
+    },
+    {
+      "id": "L026",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-06",
+      "question": "What problem does the student report?",
+      "options": {
+        "A": "Forgetting details during exams",
+        "B": "Writing too slowly",
+        "C": "Losing textbooks",
+        "D": "Missing classes"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Forgetting details during exams”.",
+        "B": "“Writing too slowly” is not supported by the passage; the relevant detail is “Forgetting details during exams”.",
+        "C": "“Losing textbooks” is not supported by the passage; the relevant detail is “Forgetting details during exams”.",
+        "D": "“Missing classes” is not supported by the passage; the relevant detail is “Forgetting details during exams”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Forgetting details during exams"
+    },
+    {
+      "id": "L027",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-06",
+      "question": "What does the tutor suggest doing before checking notes?",
+      "options": {
+        "A": "Watching a new lecture",
+        "B": "Copying notes neatly",
+        "C": "Reading the chapter again",
+        "D": "Retrieving information from memory"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Watching a new lecture” is not supported by the passage; the relevant detail is “Retrieving information from memory”.",
+        "B": "“Copying notes neatly” is not supported by the passage; the relevant detail is “Retrieving information from memory”.",
+        "C": "“Reading the chapter again” is not supported by the passage; the relevant detail is “Retrieving information from memory”.",
+        "D": "The passage explicitly supports “Retrieving information from memory”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Retrieving information from memory"
+    },
+    {
+      "id": "L028",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-06",
+      "question": "How should practice be scheduled?",
+      "options": {
+        "A": "Only the night before",
+        "B": "Only on weekends",
+        "C": "In one long session",
+        "D": "Across several days"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Only the night before” is not supported by the passage; the relevant detail is “Across several days”.",
+        "B": "“Only on weekends” is not supported by the passage; the relevant detail is “Across several days”.",
+        "C": "“In one long session” is not supported by the passage; the relevant detail is “Across several days”.",
+        "D": "The passage explicitly supports “Across several days”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Across several days"
+    },
+    {
+      "id": "L029",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-06",
+      "question": "What is the tutor’s view of rereading?",
+      "options": {
+        "A": "It can help initially but should not replace active recall",
+        "B": "It is the only effective method",
+        "C": "It is always harmful",
+        "D": "It should replace practice tests"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “It can help initially but should not replace active recall”.",
+        "B": "“It is the only effective method” is not supported by the passage; the relevant detail is “It can help initially but should not replace active recall”.",
+        "C": "“It is always harmful” is not supported by the passage; the relevant detail is “It can help initially but should not replace active recall”.",
+        "D": "“It should replace practice tests” is not supported by the passage; the relevant detail is “It can help initially but should not replace active recall”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "It can help initially but should not replace active recall"
+    },
+    {
+      "id": "L030",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-06",
+      "question": "What additional activity does the tutor recommend?",
+      "options": {
+        "A": "Memorizing page numbers",
+        "B": "Skipping difficult material",
+        "C": "Explaining concepts to a friend",
+        "D": "Avoiding group work"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Memorizing page numbers” is not supported by the passage; the relevant detail is “Explaining concepts to a friend”.",
+        "B": "“Skipping difficult material” is not supported by the passage; the relevant detail is “Explaining concepts to a friend”.",
+        "C": "The passage explicitly supports “Explaining concepts to a friend”.",
+        "D": "“Avoiding group work” is not supported by the passage; the relevant detail is “Explaining concepts to a friend”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Explaining concepts to a friend"
+    },
+    {
+      "id": "L031",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-07",
+      "question": "What did researchers compare?",
+      "options": {
+        "A": "Indoor and outdoor classrooms",
+        "B": "Streets with and without mature trees",
+        "C": "Different tree species in a greenhouse",
+        "D": "Rural forests and deserts"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Indoor and outdoor classrooms” is not supported by the passage; the relevant detail is “Streets with and without mature trees”.",
+        "B": "The passage explicitly supports “Streets with and without mature trees”.",
+        "C": "“Different tree species in a greenhouse” is not supported by the passage; the relevant detail is “Streets with and without mature trees”.",
+        "D": "“Rural forests and deserts” is not supported by the passage; the relevant detail is “Streets with and without mature trees”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Streets with and without mature trees"
+    },
+    {
+      "id": "L032",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-07",
+      "question": "When was the temperature difference greatest?",
+      "options": {
+        "A": "Before sunrise",
+        "B": "During winter mornings",
+        "C": "During summer afternoons",
+        "D": "At midnight"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Before sunrise” is not supported by the passage; the relevant detail is “During summer afternoons”.",
+        "B": "“During winter mornings” is not supported by the passage; the relevant detail is “During summer afternoons”.",
+        "C": "The passage explicitly supports “During summer afternoons”.",
+        "D": "“At midnight” is not supported by the passage; the relevant detail is “During summer afternoons”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "During summer afternoons"
+    },
+    {
+      "id": "L033",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-07",
+      "question": "What happened after sunset?",
+      "options": {
+        "A": "All streets became warmer",
+        "B": "The difference narrowed",
+        "C": "The difference increased",
+        "D": "Temperatures became identical everywhere"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“All streets became warmer” is not supported by the passage; the relevant detail is “The difference narrowed”.",
+        "B": "The passage explicitly supports “The difference narrowed”.",
+        "C": "“The difference increased” is not supported by the passage; the relevant detail is “The difference narrowed”.",
+        "D": "“Temperatures became identical everywhere” is not supported by the passage; the relevant detail is “The difference narrowed”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "The difference narrowed"
+    },
+    {
+      "id": "L034",
+      "section": "Listening",
+      "level": "B2",
+      "assetId": "listening-07",
+      "question": "What limitation did researchers emphasize?",
+      "options": {
+        "A": "Maintenance is unnecessary",
+        "B": "Trees cannot eliminate urban heat on their own",
+        "C": "Trees increase regional rainfall",
+        "D": "Traffic is irrelevant"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Maintenance is unnecessary” is not supported by the passage; the relevant detail is “Trees cannot eliminate urban heat on their own”.",
+        "B": "The passage explicitly supports “Trees cannot eliminate urban heat on their own”.",
+        "C": "“Trees increase regional rainfall” is not supported by the passage; the relevant detail is “Trees cannot eliminate urban heat on their own”.",
+        "D": "“Traffic is irrelevant” is not supported by the passage; the relevant detail is “Trees cannot eliminate urban heat on their own”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Trees cannot eliminate urban heat on their own"
+    },
+    {
+      "id": "L035",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-07",
+      "question": "Which neighborhoods did they recommend prioritizing?",
+      "options": {
+        "A": "Neighborhoods with limited tree canopy",
+        "B": "Areas with the most parks",
+        "C": "Already heavily wooded areas",
+        "D": "Only wealthy districts"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Neighborhoods with limited tree canopy”.",
+        "B": "“Areas with the most parks” is not supported by the passage; the relevant detail is “Neighborhoods with limited tree canopy”.",
+        "C": "“Already heavily wooded areas” is not supported by the passage; the relevant detail is “Neighborhoods with limited tree canopy”.",
+        "D": "“Only wealthy districts” is not supported by the passage; the relevant detail is “Neighborhoods with limited tree canopy”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Neighborhoods with limited tree canopy"
+    },
+    {
+      "id": "L036",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-08",
+      "question": "What is the principal role of replication?",
+      "options": {
+        "A": "Guaranteeing identical results",
+        "B": "Replacing all peer review",
+        "C": "Testing whether findings persist",
+        "D": "Eliminating uncertainty"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Guaranteeing identical results” is not supported by the passage; the relevant detail is “Testing whether findings persist”.",
+        "B": "“Replacing all peer review” is not supported by the passage; the relevant detail is “Testing whether findings persist”.",
+        "C": "The passage explicitly supports “Testing whether findings persist”.",
+        "D": "“Eliminating uncertainty” is not supported by the passage; the relevant detail is “Testing whether findings persist”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Testing whether findings persist"
+    },
+    {
+      "id": "L037",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-08",
+      "question": "What does a failed replication not automatically establish?",
+      "options": {
+        "A": "That context may differ",
+        "B": "That more studies are useful",
+        "C": "Misconduct",
+        "D": "That methods need examination"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“That context may differ” is not supported by the passage; the relevant detail is “Misconduct”.",
+        "B": "“That more studies are useful” is not supported by the passage; the relevant detail is “Misconduct”.",
+        "C": "The passage explicitly supports “Misconduct”.",
+        "D": "“That methods need examination” is not supported by the passage; the relevant detail is “Misconduct”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Misconduct"
+    },
+    {
+      "id": "L038",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-08",
+      "question": "Which factors might explain divergent findings?",
+      "options": {
+        "A": "Only researchers’ ages",
+        "B": "Differences in samples or measurement",
+        "C": "Only journal rankings",
+        "D": "Only publication dates"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Only researchers’ ages” is not supported by the passage; the relevant detail is “Differences in samples or measurement”.",
+        "B": "The passage explicitly supports “Differences in samples or measurement”.",
+        "C": "“Only journal rankings” is not supported by the passage; the relevant detail is “Differences in samples or measurement”.",
+        "D": "“Only publication dates” is not supported by the passage; the relevant detail is “Differences in samples or measurement”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Differences in samples or measurement"
+    },
+    {
+      "id": "L039",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-08",
+      "question": "What practice is recommended where feasible?",
+      "options": {
+        "A": "Preregistering key analyses",
+        "B": "Hiding analysis plans",
+        "C": "Avoiding methodological detail",
+        "D": "Reporting only significant outcomes"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Preregistering key analyses”.",
+        "B": "“Hiding analysis plans” is not supported by the passage; the relevant detail is “Preregistering key analyses”.",
+        "C": "“Avoiding methodological detail” is not supported by the passage; the relevant detail is “Preregistering key analyses”.",
+        "D": "“Reporting only significant outcomes” is not supported by the passage; the relevant detail is “Preregistering key analyses”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Preregistering key analyses"
+    },
+    {
+      "id": "L040",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-08",
+      "question": "How does transparency affect scientific disagreement?",
+      "options": {
+        "A": "It prevents criticism",
+        "B": "It eliminates all debate",
+        "C": "It makes disagreement more productive",
+        "D": "It makes replication unnecessary"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“It prevents criticism” is not supported by the passage; the relevant detail is “It makes disagreement more productive”.",
+        "B": "“It eliminates all debate” is not supported by the passage; the relevant detail is “It makes disagreement more productive”.",
+        "C": "The passage explicitly supports “It makes disagreement more productive”.",
+        "D": "“It makes replication unnecessary” is not supported by the passage; the relevant detail is “It makes disagreement more productive”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "It makes disagreement more productive"
+    },
+    {
+      "id": "L041",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-09",
+      "question": "Why is a simple before-and-after comparison insufficient?",
+      "options": {
+        "A": "Prices never change behavior",
+        "B": "Traffic counts cannot be measured",
+        "C": "Other factors may influence observed traffic",
+        "D": "Travel demand is always constant"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Prices never change behavior” is not supported by the passage; the relevant detail is “Other factors may influence observed traffic”.",
+        "B": "“Traffic counts cannot be measured” is not supported by the passage; the relevant detail is “Other factors may influence observed traffic”.",
+        "C": "The passage explicitly supports “Other factors may influence observed traffic”.",
+        "D": "“Travel demand is always constant” is not supported by the passage; the relevant detail is “Other factors may influence observed traffic”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Other factors may influence observed traffic"
+    },
+    {
+      "id": "L042",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-09",
+      "question": "What does a credible counterfactual help estimate?",
+      "options": {
+        "A": "The exact weather next year",
+        "B": "The personal preferences of every driver",
+        "C": "What would have happened without the policy",
+        "D": "The number of traffic lights"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“The exact weather next year” is not supported by the passage; the relevant detail is “What would have happened without the policy”.",
+        "B": "“The personal preferences of every driver” is not supported by the passage; the relevant detail is “What would have happened without the policy”.",
+        "C": "The passage explicitly supports “What would have happened without the policy”.",
+        "D": "“The number of traffic lights” is not supported by the passage; the relevant detail is “What would have happened without the policy”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "What would have happened without the policy"
+    },
+    {
+      "id": "L043",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-09",
+      "question": "Which geographic effect should analysts examine?",
+      "options": {
+        "A": "Only international tourism",
+        "B": "Only effects inside toll booths",
+        "C": "Spillovers to neighboring districts",
+        "D": "Only airport traffic"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Only international tourism” is not supported by the passage; the relevant detail is “Spillovers to neighboring districts”.",
+        "B": "“Only effects inside toll booths” is not supported by the passage; the relevant detail is “Spillovers to neighboring districts”.",
+        "C": "The passage explicitly supports “Spillovers to neighboring districts”.",
+        "D": "“Only airport traffic” is not supported by the passage; the relevant detail is “Spillovers to neighboring districts”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Spillovers to neighboring districts"
+    },
+    {
+      "id": "L044",
+      "section": "Listening",
+      "level": "C1",
+      "assetId": "listening-09",
+      "question": "Which group raises a distributional concern?",
+      "options": {
+        "A": "Tourists who walk everywhere",
+        "B": "Drivers with many transit options",
+        "C": "People who never commute",
+        "D": "Commuters with few alternatives"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Tourists who walk everywhere” is not supported by the passage; the relevant detail is “Commuters with few alternatives”.",
+        "B": "“Drivers with many transit options” is not supported by the passage; the relevant detail is “Commuters with few alternatives”.",
+        "C": "“People who never commute” is not supported by the passage; the relevant detail is “Commuters with few alternatives”.",
+        "D": "The passage explicitly supports “Commuters with few alternatives”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Commuters with few alternatives"
+    },
+    {
+      "id": "L045",
+      "section": "Listening",
+      "level": "C2",
+      "assetId": "listening-09",
+      "question": "What does the professor say about popularity?",
+      "options": {
+        "A": "It guarantees fairness",
+        "B": "It eliminates the need for evaluation",
+        "C": "It proves effectiveness",
+        "D": "It does not substitute for evidence of effectiveness"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“It guarantees fairness” is not supported by the passage; the relevant detail is “It does not substitute for evidence of effectiveness”.",
+        "B": "“It eliminates the need for evaluation” is not supported by the passage; the relevant detail is “It does not substitute for evidence of effectiveness”.",
+        "C": "“It proves effectiveness” is not supported by the passage; the relevant detail is “It does not substitute for evidence of effectiveness”.",
+        "D": "The passage explicitly supports “It does not substitute for evidence of effectiveness”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "It does not substitute for evidence of effectiveness"
+    },
+    {
+      "id": "L046",
+      "section": "Listening",
+      "level": "C2",
+      "assetId": "listening-10",
+      "question": "Which distinction is central to the lecture?",
+      "options": {
+        "A": "Sentence meaning versus contextual communication",
+        "B": "Grammar versus spelling",
+        "C": "Ancient versus modern vocabulary",
+        "D": "Written versus spoken accents"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Sentence meaning versus contextual communication”.",
+        "B": "“Grammar versus spelling” is not supported by the passage; the relevant detail is “Sentence meaning versus contextual communication”.",
+        "C": "“Ancient versus modern vocabulary” is not supported by the passage; the relevant detail is “Sentence meaning versus contextual communication”.",
+        "D": "“Written versus spoken accents” is not supported by the passage; the relevant detail is “Sentence meaning versus contextual communication”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Sentence meaning versus contextual communication"
+    },
+    {
+      "id": "L047",
+      "section": "Listening",
+      "level": "C2",
+      "assetId": "listening-10",
+      "question": "What does irony illustrate?",
+      "options": {
+        "A": "That literal meanings never matter",
+        "B": "That context can be ignored",
+        "C": "Literal praise conveying criticism",
+        "D": "That compliments are always sincere"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“That literal meanings never matter” is not supported by the passage; the relevant detail is “Literal praise conveying criticism”.",
+        "B": "“That context can be ignored” is not supported by the passage; the relevant detail is “Literal praise conveying criticism”.",
+        "C": "The passage explicitly supports “Literal praise conveying criticism”.",
+        "D": "“That compliments are always sincere” is not supported by the passage; the relevant detail is “Literal praise conveying criticism”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Literal praise conveying criticism"
+    },
+    {
+      "id": "L048",
+      "section": "Listening",
+      "level": "C2",
+      "assetId": "listening-10",
+      "question": "What constrains contextual interpretation?",
+      "options": {
+        "A": "Shared expectations and public cues",
+        "B": "Only sentence length",
+        "C": "Only dictionary definitions",
+        "D": "Only the speaker’s private intentions"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Shared expectations and public cues”.",
+        "B": "“Only sentence length” is not supported by the passage; the relevant detail is “Shared expectations and public cues”.",
+        "C": "“Only dictionary definitions” is not supported by the passage; the relevant detail is “Shared expectations and public cues”.",
+        "D": "“Only the speaker’s private intentions” is not supported by the passage; the relevant detail is “Shared expectations and public cues”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Shared expectations and public cues"
+    },
+    {
+      "id": "L049",
+      "section": "Listening",
+      "level": "C2",
+      "assetId": "listening-10",
+      "question": "What two properties must a theory explain?",
+      "options": {
+        "A": "Speed and volume",
+        "B": "Inferential flexibility and communicative stability",
+        "C": "Memory and handwriting",
+        "D": "Vocabulary size and accent"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Speed and volume” is not supported by the passage; the relevant detail is “Inferential flexibility and communicative stability”.",
+        "B": "The passage explicitly supports “Inferential flexibility and communicative stability”.",
+        "C": "“Memory and handwriting” is not supported by the passage; the relevant detail is “Inferential flexibility and communicative stability”.",
+        "D": "“Vocabulary size and accent” is not supported by the passage; the relevant detail is “Inferential flexibility and communicative stability”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Inferential flexibility and communicative stability"
+    },
+    {
+      "id": "L050",
+      "section": "Listening",
+      "level": "C2",
+      "assetId": "listening-10",
+      "question": "Which oversimplification does the lecturer reject?",
+      "options": {
+        "A": "Using examples in theory",
+        "B": "Acknowledging shared expectations",
+        "C": "Studying ordinary conversation",
+        "D": "Reducing one property entirely to the other"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Using examples in theory” is not supported by the passage; the relevant detail is “Reducing one property entirely to the other”.",
+        "B": "“Acknowledging shared expectations” is not supported by the passage; the relevant detail is “Reducing one property entirely to the other”.",
+        "C": "“Studying ordinary conversation” is not supported by the passage; the relevant detail is “Reducing one property entirely to the other”.",
+        "D": "The passage explicitly supports “Reducing one property entirely to the other”."
+      },
+      "skill": "Listening for detail/inference",
+      "reviewEvidence": "Reducing one property entirely to the other"
+    },
+    {
+      "id": "S001",
+      "section": "Structure",
+      "level": "A1",
+      "assetId": null,
+      "question": "She ___ to school every day.",
+      "options": {
+        "A": "walking",
+        "B": "walks",
+        "C": "walked",
+        "D": "walk"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“walking” does not fit this construction. Third-person singular present simple takes -s.",
+        "B": "Third-person singular present simple takes -s.",
+        "C": "“walked” does not fit this construction. Third-person singular present simple takes -s.",
+        "D": "“walk” does not fit this construction. Third-person singular present simple takes -s."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Third-person singular present simple takes -s."
+    },
+    {
+      "id": "S002",
+      "section": "Structure",
+      "level": "A1",
+      "assetId": null,
+      "question": "There ___ two books on the desk.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "be",
+        "D": "are"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“is” does not fit this construction. Plural subjects take are in the present.",
+        "B": "“was” does not fit this construction. Plural subjects take are in the present.",
+        "C": "“be” does not fit this construction. Plural subjects take are in the present.",
+        "D": "Plural subjects take are in the present."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Plural subjects take are in the present."
+    },
+    {
+      "id": "S003",
+      "section": "Structure",
+      "level": "A1",
+      "assetId": null,
+      "question": "I ___ a student.",
+      "options": {
+        "A": "am",
+        "B": "is",
+        "C": "be",
+        "D": "are"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The first-person singular form of be is am.",
+        "B": "“is” does not fit this construction. The first-person singular form of be is am.",
+        "C": "“be” does not fit this construction. The first-person singular form of be is am.",
+        "D": "“are” does not fit this construction. The first-person singular form of be is am."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "The first-person singular form of be is am."
+    },
+    {
+      "id": "S004",
+      "section": "Structure",
+      "level": "A1",
+      "assetId": null,
+      "question": "They ___ football on Sundays.",
+      "options": {
+        "A": "play",
+        "B": "playing",
+        "C": "plays",
+        "D": "played"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Plural subject they uses the base present-simple form.",
+        "B": "“playing” does not fit this construction. Plural subject they uses the base present-simple form.",
+        "C": "“plays” does not fit this construction. Plural subject they uses the base present-simple form.",
+        "D": "“played” does not fit this construction. Plural subject they uses the base present-simple form."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Plural subject they uses the base present-simple form."
+    },
+    {
+      "id": "S005",
+      "section": "Structure",
+      "level": "A1",
+      "assetId": null,
+      "question": "This is ___ orange.",
+      "options": {
+        "A": "no article",
+        "B": "an",
+        "C": "a",
+        "D": "the"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“no article” does not fit this construction. Use an before a vowel sound when introducing one nonspecific item.",
+        "B": "Use an before a vowel sound when introducing one nonspecific item.",
+        "C": "“a” does not fit this construction. Use an before a vowel sound when introducing one nonspecific item.",
+        "D": "“the” does not fit this construction. Use an before a vowel sound when introducing one nonspecific item."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Use an before a vowel sound when introducing one nonspecific item."
+    },
+    {
+      "id": "S006",
+      "section": "Structure",
+      "level": "A2",
+      "assetId": null,
+      "question": "We ___ dinner when the phone rang.",
+      "options": {
+        "A": "eat",
+        "B": "have eaten",
+        "C": "were eating",
+        "D": "are eating"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“eat” does not fit this construction. Past continuous describes an action in progress when another past event occurred.",
+        "B": "“have eaten” does not fit this construction. Past continuous describes an action in progress when another past event occurred.",
+        "C": "Past continuous describes an action in progress when another past event occurred.",
+        "D": "“are eating” does not fit this construction. Past continuous describes an action in progress when another past event occurred."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Past continuous describes an action in progress when another past event occurred."
+    },
+    {
+      "id": "S007",
+      "section": "Structure",
+      "level": "A2",
+      "assetId": null,
+      "question": "I have lived here ___ 2020.",
+      "options": {
+        "A": "during",
+        "B": "since",
+        "C": "until",
+        "D": "for"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“during” does not fit this construction. Since introduces a starting point for a continuing situation.",
+        "B": "Since introduces a starting point for a continuing situation.",
+        "C": "“until” does not fit this construction. Since introduces a starting point for a continuing situation.",
+        "D": "“for” does not fit this construction. Since introduces a starting point for a continuing situation."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Since introduces a starting point for a continuing situation."
+    },
+    {
+      "id": "S008",
+      "section": "Structure",
+      "level": "A2",
+      "assetId": null,
+      "question": "This bag is ___ than mine.",
+      "options": {
+        "A": "heavier",
+        "B": "more heavy",
+        "C": "heaviest",
+        "D": "heavy"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The comparative of heavy changes y to i and adds -er.",
+        "B": "“more heavy” does not fit this construction. The comparative of heavy changes y to i and adds -er.",
+        "C": "“heaviest” does not fit this construction. The comparative of heavy changes y to i and adds -er.",
+        "D": "“heavy” does not fit this construction. The comparative of heavy changes y to i and adds -er."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "The comparative of heavy changes y to i and adds -er."
+    },
+    {
+      "id": "S009",
+      "section": "Structure",
+      "level": "A2",
+      "assetId": null,
+      "question": "You ___ wear a seat belt in the car.",
+      "options": {
+        "A": "would",
+        "B": "could",
+        "C": "might",
+        "D": "must"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“would” does not fit this construction. Must expresses an obligation in this context.",
+        "B": "“could” does not fit this construction. Must expresses an obligation in this context.",
+        "C": "“might” does not fit this construction. Must expresses an obligation in this context.",
+        "D": "Must expresses an obligation in this context."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Must expresses an obligation in this context."
+    },
+    {
+      "id": "S010",
+      "section": "Structure",
+      "level": "A2",
+      "assetId": null,
+      "question": "If it rains, we ___ at home.",
+      "options": {
+        "A": "stayed",
+        "B": "will stay",
+        "C": "staying",
+        "D": "had stayed"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“stayed” does not fit this construction. The first conditional uses present in the if-clause and will + base verb in the main clause.",
+        "B": "The first conditional uses present in the if-clause and will + base verb in the main clause.",
+        "C": "“staying” does not fit this construction. The first conditional uses present in the if-clause and will + base verb in the main clause.",
+        "D": "“had stayed” does not fit this construction. The first conditional uses present in the if-clause and will + base verb in the main clause."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "The first conditional uses present in the if-clause and will + base verb in the main clause."
+    },
+    {
+      "id": "S011",
+      "section": "Structure",
+      "level": "A2",
+      "assetId": null,
+      "question": "She asked me where I ___.",
+      "options": {
+        "A": "lived",
+        "B": "do live",
+        "C": "am living",
+        "D": "live?"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Reported questions use statement word order and commonly backshift the tense.",
+        "B": "“do live” does not fit this construction. Reported questions use statement word order and commonly backshift the tense.",
+        "C": "“am living” does not fit this construction. Reported questions use statement word order and commonly backshift the tense.",
+        "D": "“live?” does not fit this construction. Reported questions use statement word order and commonly backshift the tense."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Reported questions use statement word order and commonly backshift the tense."
+    },
+    {
+      "id": "S012",
+      "section": "Structure",
+      "level": "B1",
+      "assetId": null,
+      "question": "The report ___ yesterday.",
+      "options": {
+        "A": "submitted",
+        "B": "is submitting",
+        "C": "has submit",
+        "D": "was submitted"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“submitted” does not fit this construction. A completed past passive uses was + past participle.",
+        "B": "“is submitting” does not fit this construction. A completed past passive uses was + past participle.",
+        "C": "“has submit” does not fit this construction. A completed past passive uses was + past participle.",
+        "D": "A completed past passive uses was + past participle."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "A completed past passive uses was + past participle."
+    },
+    {
+      "id": "S013",
+      "section": "Structure",
+      "level": "B1",
+      "assetId": null,
+      "question": "I wish I ___ more free time.",
+      "options": {
+        "A": "will have",
+        "B": "had",
+        "C": "have",
+        "D": "having"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“will have” does not fit this construction. Wish about an unreal present situation uses past simple.",
+        "B": "Wish about an unreal present situation uses past simple.",
+        "C": "“have” does not fit this construction. Wish about an unreal present situation uses past simple.",
+        "D": "“having” does not fit this construction. Wish about an unreal present situation uses past simple."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Wish about an unreal present situation uses past simple."
+    },
+    {
+      "id": "S014",
+      "section": "Structure",
+      "level": "B1",
+      "assetId": null,
+      "question": "He denied ___ the document.",
+      "options": {
+        "A": "signing",
+        "B": "sign",
+        "C": "to sign",
+        "D": "signed"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Deny is followed by a gerund.",
+        "B": "“sign” does not fit this construction. Deny is followed by a gerund.",
+        "C": "“to sign” does not fit this construction. Deny is followed by a gerund.",
+        "D": "“signed” does not fit this construction. Deny is followed by a gerund."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Deny is followed by a gerund."
+    },
+    {
+      "id": "S015",
+      "section": "Structure",
+      "level": "B1",
+      "assetId": null,
+      "question": "Neither of the answers ___ correct.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "were",
+        "D": "be"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“are” does not fit this construction. In formal agreement neither of takes a singular verb.",
+        "B": "In formal agreement neither of takes a singular verb.",
+        "C": "“were” does not fit this construction. In formal agreement neither of takes a singular verb.",
+        "D": "“be” does not fit this construction. In formal agreement neither of takes a singular verb."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "In formal agreement neither of takes a singular verb."
+    },
+    {
+      "id": "S016",
+      "section": "Structure",
+      "level": "B1",
+      "assetId": null,
+      "question": "By the time we arrived, the film ___.",
+      "options": {
+        "A": "will start",
+        "B": "had started",
+        "C": "starts",
+        "D": "has started"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“will start” does not fit this construction. Past perfect marks an action completed before another past event.",
+        "B": "Past perfect marks an action completed before another past event.",
+        "C": "“starts” does not fit this construction. Past perfect marks an action completed before another past event.",
+        "D": "“has started” does not fit this construction. Past perfect marks an action completed before another past event."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Past perfect marks an action completed before another past event."
+    },
+    {
+      "id": "S017",
+      "section": "Structure",
+      "level": "B1",
+      "assetId": null,
+      "question": "She is interested ___ learning French.",
+      "options": {
+        "A": "at",
+        "B": "in",
+        "C": "for",
+        "D": "on"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“at” does not fit this construction. Interested takes the preposition in.",
+        "B": "Interested takes the preposition in.",
+        "C": "“for” does not fit this construction. Interested takes the preposition in.",
+        "D": "“on” does not fit this construction. Interested takes the preposition in."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Interested takes the preposition in."
+    },
+    {
+      "id": "S018",
+      "section": "Structure",
+      "level": "B1",
+      "assetId": null,
+      "question": "The scientist ___ discovered the compound won an award.",
+      "options": {
+        "A": "whose",
+        "B": "which",
+        "C": "who",
+        "D": "where"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“whose” does not fit this construction. Who introduces a relative clause referring to a person as subject.",
+        "B": "“which” does not fit this construction. Who introduces a relative clause referring to a person as subject.",
+        "C": "Who introduces a relative clause referring to a person as subject.",
+        "D": "“where” does not fit this construction. Who introduces a relative clause referring to a person as subject."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Who introduces a relative clause referring to a person as subject."
+    },
+    {
+      "id": "S019",
+      "section": "Structure",
+      "level": "B1",
+      "assetId": null,
+      "question": "If I ___ you, I would apologize.",
+      "options": {
+        "A": "am",
+        "B": "will be",
+        "C": "were",
+        "D": "had been"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“am” does not fit this construction. Were is the conventional form in an unreal present conditional.",
+        "B": "“will be” does not fit this construction. Were is the conventional form in an unreal present conditional.",
+        "C": "Were is the conventional form in an unreal present conditional.",
+        "D": "“had been” does not fit this construction. Were is the conventional form in an unreal present conditional."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Were is the conventional form in an unreal present conditional."
+    },
+    {
+      "id": "S020",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "The manager insisted that every applicant ___ the form.",
+      "options": {
+        "A": "completed",
+        "B": "completes",
+        "C": "complete",
+        "D": "will complete"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“completed” does not fit this construction. Mandative subjunctive uses the base verb after insisted that.",
+        "B": "“completes” does not fit this construction. Mandative subjunctive uses the base verb after insisted that.",
+        "C": "Mandative subjunctive uses the base verb after insisted that.",
+        "D": "“will complete” does not fit this construction. Mandative subjunctive uses the base verb after insisted that."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Mandative subjunctive uses the base verb after insisted that."
+    },
+    {
+      "id": "S021",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "Hardly ___ the lecture begun when the alarm sounded.",
+      "options": {
+        "A": "has",
+        "B": "did",
+        "C": "had",
+        "D": "was"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“has” does not fit this construction. Hardly at the start triggers inversion with past perfect had.",
+        "B": "“did” does not fit this construction. Hardly at the start triggers inversion with past perfect had.",
+        "C": "Hardly at the start triggers inversion with past perfect had.",
+        "D": "“was” does not fit this construction. Hardly at the start triggers inversion with past perfect had."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Hardly at the start triggers inversion with past perfect had."
+    },
+    {
+      "id": "S022",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "The proposal, ___ details remain confidential, was approved.",
+      "options": {
+        "A": "that",
+        "B": "whose",
+        "C": "whom",
+        "D": "which"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“that” does not fit this construction. Whose expresses possession in a relative clause.",
+        "B": "Whose expresses possession in a relative clause.",
+        "C": "“whom” does not fit this construction. Whose expresses possession in a relative clause.",
+        "D": "“which” does not fit this construction. Whose expresses possession in a relative clause."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Whose expresses possession in a relative clause."
+    },
+    {
+      "id": "S023",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "She would have called if she ___ the number.",
+      "options": {
+        "A": "knows",
+        "B": "knew",
+        "C": "would know",
+        "D": "had known"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“knows” does not fit this construction. A third conditional uses past perfect in the if-clause.",
+        "B": "“knew” does not fit this construction. A third conditional uses past perfect in the if-clause.",
+        "C": "“would know” does not fit this construction. A third conditional uses past perfect in the if-clause.",
+        "D": "A third conditional uses past perfect in the if-clause."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "A third conditional uses past perfect in the if-clause."
+    },
+    {
+      "id": "S024",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "Not only ___ the data inaccurate, but the conclusions were misleading.",
+      "options": {
+        "A": "was",
+        "B": "did",
+        "C": "were",
+        "D": "had"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“was” does not fit this construction. Fronted not only triggers subject–auxiliary inversion; data is treated as plural here.",
+        "B": "“did” does not fit this construction. Fronted not only triggers subject–auxiliary inversion; data is treated as plural here.",
+        "C": "Fronted not only triggers subject–auxiliary inversion; data is treated as plural here.",
+        "D": "“had” does not fit this construction. Fronted not only triggers subject–auxiliary inversion; data is treated as plural here."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Fronted not only triggers subject–auxiliary inversion; data is treated as plural here."
+    },
+    {
+      "id": "S025",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "The more carefully you read, ___ you understand.",
+      "options": {
+        "A": "the more",
+        "B": "more",
+        "C": "most",
+        "D": "the most"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Correlative comparatives follow the more..., the more... pattern.",
+        "B": "“more” does not fit this construction. Correlative comparatives follow the more..., the more... pattern.",
+        "C": "“most” does not fit this construction. Correlative comparatives follow the more..., the more... pattern.",
+        "D": "“the most” does not fit this construction. Correlative comparatives follow the more..., the more... pattern."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Correlative comparatives follow the more..., the more... pattern."
+    },
+    {
+      "id": "S026",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "Despite ___ exhausted, she finished the experiment.",
+      "options": {
+        "A": "being",
+        "B": "be",
+        "C": "to be",
+        "D": "was"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Despite takes a noun or gerund phrase, not a finite clause.",
+        "B": "“be” does not fit this construction. Despite takes a noun or gerund phrase, not a finite clause.",
+        "C": "“to be” does not fit this construction. Despite takes a noun or gerund phrase, not a finite clause.",
+        "D": "“was” does not fit this construction. Despite takes a noun or gerund phrase, not a finite clause."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Despite takes a noun or gerund phrase, not a finite clause."
+    },
+    {
+      "id": "S027",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "The committee postponed ___ a final decision.",
+      "options": {
+        "A": "to make",
+        "B": "making",
+        "C": "made",
+        "D": "make"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“to make” does not fit this construction. Postpone is followed by a gerund.",
+        "B": "Postpone is followed by a gerund.",
+        "C": "“made” does not fit this construction. Postpone is followed by a gerund.",
+        "D": "“make” does not fit this construction. Postpone is followed by a gerund."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Postpone is followed by a gerund."
+    },
+    {
+      "id": "S028",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "No sooner had the results appeared ___ critics questioned them.",
+      "options": {
+        "A": "then",
+        "B": "when",
+        "C": "that",
+        "D": "than"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“then” does not fit this construction. No sooner ... than is the fixed correlative construction.",
+        "B": "“when” does not fit this construction. No sooner ... than is the fixed correlative construction.",
+        "C": "“that” does not fit this construction. No sooner ... than is the fixed correlative construction.",
+        "D": "No sooner ... than is the fixed correlative construction."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "No sooner ... than is the fixed correlative construction."
+    },
+    {
+      "id": "S029",
+      "section": "Structure",
+      "level": "B2",
+      "assetId": null,
+      "question": "The results are consistent ___ the initial hypothesis.",
+      "options": {
+        "A": "to",
+        "B": "at",
+        "C": "for",
+        "D": "with"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“to” does not fit this construction. Consistent with is the standard collocation.",
+        "B": "“at” does not fit this construction. Consistent with is the standard collocation.",
+        "C": "“for” does not fit this construction. Consistent with is the standard collocation.",
+        "D": "Consistent with is the standard collocation."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Consistent with is the standard collocation."
+    },
+    {
+      "id": "S030",
+      "section": "Structure",
+      "level": "C1",
+      "assetId": null,
+      "question": "Were the assumptions to change, the conclusion ___ reconsideration.",
+      "options": {
+        "A": "would require",
+        "B": "requires",
+        "C": "will require",
+        "D": "had required"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Were ... to expresses a hypothetical condition with would in the main clause.",
+        "B": "“requires” does not fit this construction. Were ... to expresses a hypothetical condition with would in the main clause.",
+        "C": "“will require” does not fit this construction. Were ... to expresses a hypothetical condition with would in the main clause.",
+        "D": "“had required” does not fit this construction. Were ... to expresses a hypothetical condition with would in the main clause."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Were ... to expresses a hypothetical condition with would in the main clause."
+    },
+    {
+      "id": "S031",
+      "section": "Structure",
+      "level": "C1",
+      "assetId": null,
+      "question": "The chair recommended that the motion ___ tabled.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "be",
+        "D": "being"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“is” does not fit this construction. Formal mandative subjunctive uses be after recommended that.",
+        "B": "“was” does not fit this construction. Formal mandative subjunctive uses be after recommended that.",
+        "C": "Formal mandative subjunctive uses be after recommended that.",
+        "D": "“being” does not fit this construction. Formal mandative subjunctive uses be after recommended that."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Formal mandative subjunctive uses be after recommended that."
+    },
+    {
+      "id": "S032",
+      "section": "Structure",
+      "level": "C1",
+      "assetId": null,
+      "question": "Scarcely ___ the meeting ended when the announcement arrived.",
+      "options": {
+        "A": "has",
+        "B": "was",
+        "C": "did",
+        "D": "had"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“has” does not fit this construction. Scarcely in front position requires inversion with past perfect.",
+        "B": "“was” does not fit this construction. Scarcely in front position requires inversion with past perfect.",
+        "C": "“did” does not fit this construction. Scarcely in front position requires inversion with past perfect.",
+        "D": "Scarcely in front position requires inversion with past perfect."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Scarcely in front position requires inversion with past perfect."
+    },
+    {
+      "id": "S033",
+      "section": "Structure",
+      "level": "C1",
+      "assetId": null,
+      "question": "It is imperative that each sample ___ independently verified.",
+      "options": {
+        "A": "be",
+        "B": "was",
+        "C": "is",
+        "D": "has"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "Imperative that triggers the base-form subjunctive be.",
+        "B": "“was” does not fit this construction. Imperative that triggers the base-form subjunctive be.",
+        "C": "“is” does not fit this construction. Imperative that triggers the base-form subjunctive be.",
+        "D": "“has” does not fit this construction. Imperative that triggers the base-form subjunctive be."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Imperative that triggers the base-form subjunctive be."
+    },
+    {
+      "id": "S034",
+      "section": "Structure",
+      "level": "C1",
+      "assetId": null,
+      "question": "The evidence, compelling ___ it appears, remains inconclusive.",
+      "options": {
+        "A": "unless",
+        "B": "though",
+        "C": "because",
+        "D": "whether"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“unless” does not fit this construction. Adjective + though + subject + verb forms a concessive clause.",
+        "B": "Adjective + though + subject + verb forms a concessive clause.",
+        "C": "“because” does not fit this construction. Adjective + though + subject + verb forms a concessive clause.",
+        "D": "“whether” does not fit this construction. Adjective + though + subject + verb forms a concessive clause."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Adjective + though + subject + verb forms a concessive clause."
+    },
+    {
+      "id": "S035",
+      "section": "Structure",
+      "level": "C1",
+      "assetId": null,
+      "question": "He spoke as though he ___ the outcome in advance.",
+      "options": {
+        "A": "knows",
+        "B": "has know",
+        "C": "will know",
+        "D": "had known"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“knows” does not fit this construction. Past perfect presents an unreal earlier knowledge relative to the past speaking.",
+        "B": "“has know” does not fit this construction. Past perfect presents an unreal earlier knowledge relative to the past speaking.",
+        "C": "“will know” does not fit this construction. Past perfect presents an unreal earlier knowledge relative to the past speaking.",
+        "D": "Past perfect presents an unreal earlier knowledge relative to the past speaking."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Past perfect presents an unreal earlier knowledge relative to the past speaking."
+    },
+    {
+      "id": "S036",
+      "section": "Structure",
+      "level": "C1",
+      "assetId": null,
+      "question": "So intricate ___ the procedure that few could replicate it.",
+      "options": {
+        "A": "did",
+        "B": "was",
+        "C": "were",
+        "D": "had"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“did” does not fit this construction. Fronted so + adjective requires inversion of be and the singular subject.",
+        "B": "Fronted so + adjective requires inversion of be and the singular subject.",
+        "C": "“were” does not fit this construction. Fronted so + adjective requires inversion of be and the singular subject.",
+        "D": "“had” does not fit this construction. Fronted so + adjective requires inversion of be and the singular subject."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Fronted so + adjective requires inversion of be and the singular subject."
+    },
+    {
+      "id": "S037",
+      "section": "Structure",
+      "level": "C2",
+      "assetId": null,
+      "question": "Little ___ the researchers anticipate the magnitude of the effect.",
+      "options": {
+        "A": "had",
+        "B": "were",
+        "C": "did",
+        "D": "have"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“had” does not fit this construction. Negative little at the beginning triggers do-support inversion in past simple.",
+        "B": "“were” does not fit this construction. Negative little at the beginning triggers do-support inversion in past simple.",
+        "C": "Negative little at the beginning triggers do-support inversion in past simple.",
+        "D": "“have” does not fit this construction. Negative little at the beginning triggers do-support inversion in past simple."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Negative little at the beginning triggers do-support inversion in past simple."
+    },
+    {
+      "id": "S038",
+      "section": "Structure",
+      "level": "C2",
+      "assetId": null,
+      "question": "Had it not been for the archival records, the discrepancy ___ unnoticed.",
+      "options": {
+        "A": "would go",
+        "B": "will go",
+        "C": "had gone",
+        "D": "would have gone"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“would go” does not fit this construction. Counterfactual past condition takes would have + past participle.",
+        "B": "“will go” does not fit this construction. Counterfactual past condition takes would have + past participle.",
+        "C": "“had gone” does not fit this construction. Counterfactual past condition takes would have + past participle.",
+        "D": "Counterfactual past condition takes would have + past participle."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Counterfactual past condition takes would have + past participle."
+    },
+    {
+      "id": "S039",
+      "section": "Structure",
+      "level": "C2",
+      "assetId": null,
+      "question": "The claim is not so much demonstrably false ___ insufficiently specified.",
+      "options": {
+        "A": "that",
+        "B": "than",
+        "C": "but",
+        "D": "as"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“that” does not fit this construction. Not so much X as Y is the idiomatic contrast.",
+        "B": "“than” does not fit this construction. Not so much X as Y is the idiomatic contrast.",
+        "C": "“but” does not fit this construction. Not so much X as Y is the idiomatic contrast.",
+        "D": "Not so much X as Y is the idiomatic contrast."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Not so much X as Y is the idiomatic contrast."
+    },
+    {
+      "id": "S040",
+      "section": "Structure",
+      "level": "C2",
+      "assetId": null,
+      "question": "Such ___ the complexity of the negotiations that agreement proved elusive.",
+      "options": {
+        "A": "had",
+        "B": "was",
+        "C": "did",
+        "D": "were"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“had” does not fit this construction. Such was the complexity is an inverted structure with a singular noun.",
+        "B": "Such was the complexity is an inverted structure with a singular noun.",
+        "C": "“did” does not fit this construction. Such was the complexity is an inverted structure with a singular noun.",
+        "D": "“were” does not fit this construction. Such was the complexity is an inverted structure with a singular noun."
+      },
+      "skill": "Grammar and written expression",
+      "reviewEvidence": "Such was the complexity is an inverted structure with a singular noun."
+    },
+    {
+      "id": "R001",
+      "section": "Reading",
+      "level": "A1",
+      "assetId": "reading-01",
+      "question": "Where is the garden?",
+      "options": {
+        "A": "On a rooftop",
+        "B": "Behind an apartment building",
+        "C": "Inside a supermarket",
+        "D": "Beside a school"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“On a rooftop” is not supported by the passage; the relevant detail is “Behind an apartment building”.",
+        "B": "The passage explicitly supports “Behind an apartment building”.",
+        "C": "“Inside a supermarket” is not supported by the passage; the relevant detail is “Behind an apartment building”.",
+        "D": "“Beside a school” is not supported by the passage; the relevant detail is “Behind an apartment building”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Behind an apartment building"
+    },
+    {
+      "id": "R002",
+      "section": "Reading",
+      "level": "A1",
+      "assetId": "reading-01",
+      "question": "Who started it?",
+      "options": {
+        "A": "Maya and her neighbors",
+        "B": "The city council",
+        "C": "Maya alone",
+        "D": "A school teacher"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Maya and her neighbors”.",
+        "B": "“The city council” is not supported by the passage; the relevant detail is “Maya and her neighbors”.",
+        "C": "“Maya alone” is not supported by the passage; the relevant detail is “Maya and her neighbors”.",
+        "D": "“A school teacher” is not supported by the passage; the relevant detail is “Maya and her neighbors”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Maya and her neighbors"
+    },
+    {
+      "id": "R003",
+      "section": "Reading",
+      "level": "A1",
+      "assetId": "reading-01",
+      "question": "What do neighbors do on Saturdays?",
+      "options": {
+        "A": "Water the plants",
+        "B": "Build a greenhouse",
+        "C": "Paint the fence",
+        "D": "Sell vegetables"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Water the plants”.",
+        "B": "“Build a greenhouse” is not supported by the passage; the relevant detail is “Water the plants”.",
+        "C": "“Paint the fence” is not supported by the passage; the relevant detail is “Water the plants”.",
+        "D": "“Sell vegetables” is not supported by the passage; the relevant detail is “Water the plants”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Water the plants"
+    },
+    {
+      "id": "R004",
+      "section": "Reading",
+      "level": "A1",
+      "assetId": "reading-01",
+      "question": "Why does Maya enjoy the garden?",
+      "options": {
+        "A": "It is near her office",
+        "B": "It has a swimming pool",
+        "C": "She meets friends there",
+        "D": "It sells fresh bread"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“It is near her office” is not supported by the passage; the relevant detail is “She meets friends there”.",
+        "B": "“It has a swimming pool” is not supported by the passage; the relevant detail is “She meets friends there”.",
+        "C": "The passage explicitly supports “She meets friends there”.",
+        "D": "“It sells fresh bread” is not supported by the passage; the relevant detail is “She meets friends there”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "She meets friends there"
+    },
+    {
+      "id": "R005",
+      "section": "Reading",
+      "level": "A1",
+      "assetId": "reading-01",
+      "question": "When will the first tomatoes be ready?",
+      "options": {
+        "A": "In May",
+        "B": "In August",
+        "C": "In July",
+        "D": "In June"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“In May” is not supported by the passage; the relevant detail is “In July”.",
+        "B": "“In August” is not supported by the passage; the relevant detail is “In July”.",
+        "C": "The passage explicitly supports “In July”.",
+        "D": "“In June” is not supported by the passage; the relevant detail is “In July”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "In July"
+    },
+    {
+      "id": "R006",
+      "section": "Reading",
+      "level": "A2",
+      "assetId": "reading-02",
+      "question": "What color is Leo’s bicycle?",
+      "options": {
+        "A": "Blue",
+        "B": "Red",
+        "C": "Green",
+        "D": "Black"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Blue”.",
+        "B": "“Red” is not supported by the passage; the relevant detail is “Blue”.",
+        "C": "“Green” is not supported by the passage; the relevant detail is “Blue”.",
+        "D": "“Black” is not supported by the passage; the relevant detail is “Blue”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Blue"
+    },
+    {
+      "id": "R007",
+      "section": "Reading",
+      "level": "A2",
+      "assetId": "reading-02",
+      "question": "Why does he usually cycle to work?",
+      "options": {
+        "A": "His car is broken",
+        "B": "The train is expensive",
+        "C": "The bus is often late",
+        "D": "Cycling is required"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“His car is broken” is not supported by the passage; the relevant detail is “The bus is often late”.",
+        "B": "“The train is expensive” is not supported by the passage; the relevant detail is “The bus is often late”.",
+        "C": "The passage explicitly supports “The bus is often late”.",
+        "D": "“Cycling is required” is not supported by the passage; the relevant detail is “The bus is often late”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "The bus is often late"
+    },
+    {
+      "id": "R008",
+      "section": "Reading",
+      "level": "A2",
+      "assetId": "reading-02",
+      "question": "How long is the bicycle journey?",
+      "options": {
+        "A": "Ten minutes",
+        "B": "Fifty minutes",
+        "C": "Thirty-five minutes",
+        "D": "Twenty minutes"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Ten minutes” is not supported by the passage; the relevant detail is “Twenty minutes”.",
+        "B": "“Fifty minutes” is not supported by the passage; the relevant detail is “Twenty minutes”.",
+        "C": "“Thirty-five minutes” is not supported by the passage; the relevant detail is “Twenty minutes”.",
+        "D": "The passage explicitly supports “Twenty minutes”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Twenty minutes"
+    },
+    {
+      "id": "R009",
+      "section": "Reading",
+      "level": "A2",
+      "assetId": "reading-02",
+      "question": "What does he do on rainy days?",
+      "options": {
+        "A": "He works from home",
+        "B": "He walks",
+        "C": "He takes a taxi",
+        "D": "He takes the bus"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“He works from home” is not supported by the passage; the relevant detail is “He takes the bus”.",
+        "B": "“He walks” is not supported by the passage; the relevant detail is “He takes the bus”.",
+        "C": "“He takes a taxi” is not supported by the passage; the relevant detail is “He takes the bus”.",
+        "D": "The passage explicitly supports “He takes the bus”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "He takes the bus"
+    },
+    {
+      "id": "R010",
+      "section": "Reading",
+      "level": "A2",
+      "assetId": "reading-02",
+      "question": "Where does he keep his bicycle at work?",
+      "options": {
+        "A": "Outside the gate",
+        "B": "In a locked room",
+        "C": "On the street",
+        "D": "In the lobby"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Outside the gate” is not supported by the passage; the relevant detail is “In a locked room”.",
+        "B": "The passage explicitly supports “In a locked room”.",
+        "C": "“On the street” is not supported by the passage; the relevant detail is “In a locked room”.",
+        "D": "“In the lobby” is not supported by the passage; the relevant detail is “In a locked room”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "In a locked room"
+    },
+    {
+      "id": "R011",
+      "section": "Reading",
+      "level": "A2",
+      "assetId": "reading-03",
+      "question": "Who is the course intended for?",
+      "options": {
+        "A": "Only professionals",
+        "B": "Children under ten",
+        "C": "University staff only",
+        "D": "Adults"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Only professionals” is not supported by the passage; the relevant detail is “Adults”.",
+        "B": "“Children under ten” is not supported by the passage; the relevant detail is “Adults”.",
+        "C": "“University staff only” is not supported by the passage; the relevant detail is “Adults”.",
+        "D": "The passage explicitly supports “Adults”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Adults"
+    },
+    {
+      "id": "R012",
+      "section": "Reading",
+      "level": "A2",
+      "assetId": "reading-03",
+      "question": "On which day are classes held?",
+      "options": {
+        "A": "Saturday",
+        "B": "Wednesday",
+        "C": "Thursday",
+        "D": "Monday"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Saturday” is not supported by the passage; the relevant detail is “Wednesday”.",
+        "B": "The passage explicitly supports “Wednesday”.",
+        "C": "“Thursday” is not supported by the passage; the relevant detail is “Wednesday”.",
+        "D": "“Monday” is not supported by the passage; the relevant detail is “Wednesday”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Wednesday"
+    },
+    {
+      "id": "R013",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-03",
+      "question": "What equipment may students use?",
+      "options": {
+        "A": "Only film cameras",
+        "B": "Only professional cameras",
+        "C": "Phones or cameras",
+        "D": "Only laptops"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Only film cameras” is not supported by the passage; the relevant detail is “Phones or cameras”.",
+        "B": "“Only professional cameras” is not supported by the passage; the relevant detail is “Phones or cameras”.",
+        "C": "The passage explicitly supports “Phones or cameras”.",
+        "D": "“Only laptops” is not supported by the passage; the relevant detail is “Phones or cameras”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Phones or cameras"
+    },
+    {
+      "id": "R014",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-03",
+      "question": "What is included in the fee?",
+      "options": {
+        "A": "A new camera",
+        "B": "A private tutor",
+        "C": "Free transportation",
+        "D": "Printed materials"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“A new camera” is not supported by the passage; the relevant detail is “Printed materials”.",
+        "B": "“A private tutor” is not supported by the passage; the relevant detail is “Printed materials”.",
+        "C": "“Free transportation” is not supported by the passage; the relevant detail is “Printed materials”.",
+        "D": "The passage explicitly supports “Printed materials”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Printed materials"
+    },
+    {
+      "id": "R015",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-03",
+      "question": "When does registration close?",
+      "options": {
+        "A": "September 12",
+        "B": "October 12",
+        "C": "September 19",
+        "D": "September 5"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “September 12”.",
+        "B": "“October 12” is not supported by the passage; the relevant detail is “September 12”.",
+        "C": "“September 19” is not supported by the passage; the relevant detail is “September 12”.",
+        "D": "“September 5” is not supported by the passage; the relevant detail is “September 12”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "September 12"
+    },
+    {
+      "id": "R016",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-04",
+      "question": "How did the river previously flow through the city?",
+      "options": {
+        "A": "Inside a concrete channel",
+        "B": "Across an artificial lake",
+        "C": "Through a natural wetland",
+        "D": "Under a railway tunnel"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Inside a concrete channel”.",
+        "B": "“Across an artificial lake” is not supported by the passage; the relevant detail is “Inside a concrete channel”.",
+        "C": "“Through a natural wetland” is not supported by the passage; the relevant detail is “Inside a concrete channel”.",
+        "D": "“Under a railway tunnel” is not supported by the passage; the relevant detail is “Inside a concrete channel”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Inside a concrete channel"
+    },
+    {
+      "id": "R017",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-04",
+      "question": "What did the project remove?",
+      "options": {
+        "A": "Nearby houses",
+        "B": "Part of the concrete",
+        "C": "All city bridges",
+        "D": "A railway station"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Nearby houses” is not supported by the passage; the relevant detail is “Part of the concrete”.",
+        "B": "The passage explicitly supports “Part of the concrete”.",
+        "C": "“All city bridges” is not supported by the passage; the relevant detail is “Part of the concrete”.",
+        "D": "“A railway station” is not supported by the passage; the relevant detail is “Part of the concrete”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Part of the concrete"
+    },
+    {
+      "id": "R018",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-04",
+      "question": "What was planted along the banks?",
+      "options": {
+        "A": "Only ornamental plastic plants",
+        "B": "Fruit trees in pots",
+        "C": "Native vegetation",
+        "D": "Imported desert grasses"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Only ornamental plastic plants” is not supported by the passage; the relevant detail is “Native vegetation”.",
+        "B": "“Fruit trees in pots” is not supported by the passage; the relevant detail is “Native vegetation”.",
+        "C": "The passage explicitly supports “Native vegetation”.",
+        "D": "“Imported desert grasses” is not supported by the passage; the relevant detail is “Native vegetation”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Native vegetation"
+    },
+    {
+      "id": "R019",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-04",
+      "question": "What changed within two years?",
+      "options": {
+        "A": "Birds returned and paths gained users",
+        "B": "Factories closed",
+        "C": "All flooding stopped",
+        "D": "The river dried up"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Birds returned and paths gained users”.",
+        "B": "“Factories closed” is not supported by the passage; the relevant detail is “Birds returned and paths gained users”.",
+        "C": "“All flooding stopped” is not supported by the passage; the relevant detail is “Birds returned and paths gained users”.",
+        "D": "“The river dried up” is not supported by the passage; the relevant detail is “Birds returned and paths gained users”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Birds returned and paths gained users"
+    },
+    {
+      "id": "R020",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-04",
+      "question": "What still requires monitoring?",
+      "options": {
+        "A": "Parking prices",
+        "B": "Street lighting",
+        "C": "Ticket sales",
+        "D": "Water quality"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Parking prices” is not supported by the passage; the relevant detail is “Water quality”.",
+        "B": "“Street lighting” is not supported by the passage; the relevant detail is “Water quality”.",
+        "C": "“Ticket sales” is not supported by the passage; the relevant detail is “Water quality”.",
+        "D": "The passage explicitly supports “Water quality”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Water quality"
+    },
+    {
+      "id": "R021",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-05",
+      "question": "What does the brain process during sleep?",
+      "options": {
+        "A": "Information encountered during the day",
+        "B": "Only visual information",
+        "C": "Only emotional memories",
+        "D": "Only information from childhood"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Information encountered during the day”.",
+        "B": "“Only visual information” is not supported by the passage; the relevant detail is “Information encountered during the day”.",
+        "C": "“Only emotional memories” is not supported by the passage; the relevant detail is “Information encountered during the day”.",
+        "D": "“Only information from childhood” is not supported by the passage; the relevant detail is “Information encountered during the day”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Information encountered during the day"
+    },
+    {
+      "id": "R022",
+      "section": "Reading",
+      "level": "B1",
+      "assetId": "reading-05",
+      "question": "How do sleep stages differ?",
+      "options": {
+        "A": "They occur only in children",
+        "B": "They all have identical brain activity",
+        "C": "Patterns of neural activity",
+        "D": "They depend only on diet"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“They occur only in children” is not supported by the passage; the relevant detail is “Patterns of neural activity”.",
+        "B": "“They all have identical brain activity” is not supported by the passage; the relevant detail is “Patterns of neural activity”.",
+        "C": "The passage explicitly supports “Patterns of neural activity”.",
+        "D": "“They depend only on diet” is not supported by the passage; the relevant detail is “Patterns of neural activity”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Patterns of neural activity"
+    },
+    {
+      "id": "R023",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-05",
+      "question": "What can adequate sleep support?",
+      "options": {
+        "A": "Only eyesight",
+        "B": "Only hearing",
+        "C": "Memory",
+        "D": "Only physical strength"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Only eyesight” is not supported by the passage; the relevant detail is “Memory”.",
+        "B": "“Only hearing” is not supported by the passage; the relevant detail is “Memory”.",
+        "C": "The passage explicitly supports “Memory”.",
+        "D": "“Only physical strength” is not supported by the passage; the relevant detail is “Memory”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Memory"
+    },
+    {
+      "id": "R024",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-05",
+      "question": "What influences the effect of sleep on learning?",
+      "options": {
+        "A": "Only room temperature",
+        "B": "The type of learning and timing of rest",
+        "C": "Only handwriting style",
+        "D": "Only school location"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Only room temperature” is not supported by the passage; the relevant detail is “The type of learning and timing of rest”.",
+        "B": "The passage explicitly supports “The type of learning and timing of rest”.",
+        "C": "“Only handwriting style” is not supported by the passage; the relevant detail is “The type of learning and timing of rest”.",
+        "D": "“Only school location” is not supported by the passage; the relevant detail is “The type of learning and timing of rest”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "The type of learning and timing of rest"
+    },
+    {
+      "id": "R025",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-05",
+      "question": "What habit does the passage favor?",
+      "options": {
+        "A": "Avoiding sleep before exams",
+        "B": "Regular sleep schedules",
+        "C": "One long sleep after many short nights",
+        "D": "Changing bedtime every night"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Avoiding sleep before exams” is not supported by the passage; the relevant detail is “Regular sleep schedules”.",
+        "B": "The passage explicitly supports “Regular sleep schedules”.",
+        "C": "“One long sleep after many short nights” is not supported by the passage; the relevant detail is “Regular sleep schedules”.",
+        "D": "“Changing bedtime every night” is not supported by the passage; the relevant detail is “Regular sleep schedules”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Regular sleep schedules"
+    },
+    {
+      "id": "R026",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-06",
+      "question": "What was an early purpose of printed city maps?",
+      "options": {
+        "A": "Medical diagnosis",
+        "B": "Administrative and commercial use",
+        "C": "Weather forecasting",
+        "D": "Sports training"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Medical diagnosis” is not supported by the passage; the relevant detail is “Administrative and commercial use”.",
+        "B": "The passage explicitly supports “Administrative and commercial use”.",
+        "C": "“Weather forecasting” is not supported by the passage; the relevant detail is “Administrative and commercial use”.",
+        "D": "“Sports training” is not supported by the passage; the relevant detail is “Administrative and commercial use”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Administrative and commercial use"
+    },
+    {
+      "id": "R027",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-06",
+      "question": "What helped broaden the audience for maps?",
+      "options": {
+        "A": "Less public transportation",
+        "B": "A ban on publishing",
+        "C": "Cheaper printing and urban growth",
+        "D": "Fewer city residents"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Less public transportation” is not supported by the passage; the relevant detail is “Cheaper printing and urban growth”.",
+        "B": "“A ban on publishing” is not supported by the passage; the relevant detail is “Cheaper printing and urban growth”.",
+        "C": "The passage explicitly supports “Cheaper printing and urban growth”.",
+        "D": "“Fewer city residents” is not supported by the passage; the relevant detail is “Cheaper printing and urban growth”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Cheaper printing and urban growth"
+    },
+    {
+      "id": "R028",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-06",
+      "question": "Which features became more common on maps?",
+      "options": {
+        "A": "Transport routes and street names",
+        "B": "Only private gardens",
+        "C": "Only mountain ranges",
+        "D": "Only national borders"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Transport routes and street names”.",
+        "B": "“Only private gardens” is not supported by the passage; the relevant detail is “Transport routes and street names”.",
+        "C": "“Only mountain ranges” is not supported by the passage; the relevant detail is “Transport routes and street names”.",
+        "D": "“Only national borders” is not supported by the passage; the relevant detail is “Transport routes and street names”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Transport routes and street names"
+    },
+    {
+      "id": "R029",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-06",
+      "question": "What does the author suggest about mapmaking choices?",
+      "options": {
+        "A": "They are determined solely by paper size",
+        "B": "They can influence perceptions of a city",
+        "C": "They have no effect on readers",
+        "D": "They are entirely neutral"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“They are determined solely by paper size” is not supported by the passage; the relevant detail is “They can influence perceptions of a city”.",
+        "B": "The passage explicitly supports “They can influence perceptions of a city”.",
+        "C": "“They have no effect on readers” is not supported by the passage; the relevant detail is “They can influence perceptions of a city”.",
+        "D": "“They are entirely neutral” is not supported by the passage; the relevant detail is “They can influence perceptions of a city”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "They can influence perceptions of a city"
+    },
+    {
+      "id": "R030",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-06",
+      "question": "What is the passage’s main theme?",
+      "options": {
+        "A": "Changes in the production and social role of maps",
+        "B": "The history of road construction",
+        "C": "The decline of cities",
+        "D": "The invention of the compass"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Changes in the production and social role of maps”.",
+        "B": "“The history of road construction” is not supported by the passage; the relevant detail is “Changes in the production and social role of maps”.",
+        "C": "“The decline of cities” is not supported by the passage; the relevant detail is “Changes in the production and social role of maps”.",
+        "D": "“The invention of the compass” is not supported by the passage; the relevant detail is “Changes in the production and social role of maps”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Changes in the production and social role of maps"
+    },
+    {
+      "id": "R031",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-07",
+      "question": "What problem can habitat fragmentation create?",
+      "options": {
+        "A": "Difficulty moving between flowering plants",
+        "B": "Fewer daylight hours",
+        "C": "Excessive ocean currents",
+        "D": "Increased soil salinity everywhere"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Difficulty moving between flowering plants”.",
+        "B": "“Fewer daylight hours” is not supported by the passage; the relevant detail is “Difficulty moving between flowering plants”.",
+        "C": "“Excessive ocean currents” is not supported by the passage; the relevant detail is “Difficulty moving between flowering plants”.",
+        "D": "“Increased soil salinity everywhere” is not supported by the passage; the relevant detail is “Difficulty moving between flowering plants”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Difficulty moving between flowering plants"
+    },
+    {
+      "id": "R032",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-07",
+      "question": "What sometimes improved insect movement?",
+      "options": {
+        "A": "Artificial streetlights",
+        "B": "Removing all hedges",
+        "C": "Concrete barriers",
+        "D": "Corridors of native vegetation"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“Artificial streetlights” is not supported by the passage; the relevant detail is “Corridors of native vegetation”.",
+        "B": "“Removing all hedges” is not supported by the passage; the relevant detail is “Corridors of native vegetation”.",
+        "C": "“Concrete barriers” is not supported by the passage; the relevant detail is “Corridors of native vegetation”.",
+        "D": "The passage explicitly supports “Corridors of native vegetation”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Corridors of native vegetation"
+    },
+    {
+      "id": "R033",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-07",
+      "question": "Which factor affected corridor benefits?",
+      "options": {
+        "A": "Only the season of publication",
+        "B": "Corridor width and surrounding land use",
+        "C": "Only the price of land",
+        "D": "Only the age of the researchers"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Only the season of publication” is not supported by the passage; the relevant detail is “Corridor width and surrounding land use”.",
+        "B": "The passage explicitly supports “Corridor width and surrounding land use”.",
+        "C": "“Only the price of land” is not supported by the passage; the relevant detail is “Corridor width and surrounding land use”.",
+        "D": "“Only the age of the researchers” is not supported by the passage; the relevant detail is “Corridor width and surrounding land use”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Corridor width and surrounding land use"
+    },
+    {
+      "id": "R034",
+      "section": "Reading",
+      "level": "B2",
+      "assetId": "reading-07",
+      "question": "Why did the authors reject a universal design?",
+      "options": {
+        "A": "Effectiveness depends on local conditions",
+        "B": "Corridors always fail",
+        "C": "Vegetation never affects movement",
+        "D": "All insects are identical"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Effectiveness depends on local conditions”.",
+        "B": "“Corridors always fail” is not supported by the passage; the relevant detail is “Effectiveness depends on local conditions”.",
+        "C": "“Vegetation never affects movement” is not supported by the passage; the relevant detail is “Effectiveness depends on local conditions”.",
+        "D": "“All insects are identical” is not supported by the passage; the relevant detail is “Effectiveness depends on local conditions”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Effectiveness depends on local conditions"
+    },
+    {
+      "id": "R035",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-07",
+      "question": "What follow-up did they recommend?",
+      "options": {
+        "A": "Measuring one afternoon only",
+        "B": "Monitoring across multiple seasons",
+        "C": "Avoiding field observations",
+        "D": "Removing all corridors immediately"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“Measuring one afternoon only” is not supported by the passage; the relevant detail is “Monitoring across multiple seasons”.",
+        "B": "The passage explicitly supports “Monitoring across multiple seasons”.",
+        "C": "“Avoiding field observations” is not supported by the passage; the relevant detail is “Monitoring across multiple seasons”.",
+        "D": "“Removing all corridors immediately” is not supported by the passage; the relevant detail is “Monitoring across multiple seasons”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Monitoring across multiple seasons"
+    },
+    {
+      "id": "R036",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-08",
+      "question": "What was the earlier interpretation of fewer pottery fragments?",
+      "options": {
+        "A": "More farming",
+        "B": "Increased trade",
+        "C": "Population collapse",
+        "D": "A new religious festival"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“More farming” is not supported by the passage; the relevant detail is “Population collapse”.",
+        "B": "“Increased trade” is not supported by the passage; the relevant detail is “Population collapse”.",
+        "C": "The passage explicitly supports “Population collapse”.",
+        "D": "“A new religious festival” is not supported by the passage; the relevant detail is “Population collapse”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Population collapse"
+    },
+    {
+      "id": "R037",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-08",
+      "question": "What did later excavations reveal?",
+      "options": {
+        "A": "A ban on storage",
+        "B": "Use of perishable containers",
+        "C": "A complete abandonment of containers",
+        "D": "Only imported ceramics"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“A ban on storage” is not supported by the passage; the relevant detail is “Use of perishable containers”.",
+        "B": "The passage explicitly supports “Use of perishable containers”.",
+        "C": "“A complete abandonment of containers” is not supported by the passage; the relevant detail is “Use of perishable containers”.",
+        "D": "“Only imported ceramics” is not supported by the passage; the relevant detail is “Use of perishable containers”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Use of perishable containers"
+    },
+    {
+      "id": "R038",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-08",
+      "question": "Why were the alternative containers rarely found?",
+      "options": {
+        "A": "They were too heavy",
+        "B": "They were never used",
+        "C": "They rarely survive over time",
+        "D": "They were all exported"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“They were too heavy” is not supported by the passage; the relevant detail is “They rarely survive over time”.",
+        "B": "“They were never used” is not supported by the passage; the relevant detail is “They rarely survive over time”.",
+        "C": "The passage explicitly supports “They rarely survive over time”.",
+        "D": "“They were all exported” is not supported by the passage; the relevant detail is “They rarely survive over time”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "They rarely survive over time"
+    },
+    {
+      "id": "R039",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-08",
+      "question": "What does the revised interpretation not prove?",
+      "options": {
+        "A": "That residents used other materials",
+        "B": "That population remained constant",
+        "C": "That ceramics were found",
+        "D": "That excavations occurred"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“That residents used other materials” is not supported by the passage; the relevant detail is “That population remained constant”.",
+        "B": "The passage explicitly supports “That population remained constant”.",
+        "C": "“That ceramics were found” is not supported by the passage; the relevant detail is “That population remained constant”.",
+        "D": "“That excavations occurred” is not supported by the passage; the relevant detail is “That population remained constant”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "That population remained constant"
+    },
+    {
+      "id": "R040",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-08",
+      "question": "What broader methodological warning follows?",
+      "options": {
+        "A": "Absence always proves nonexistence",
+        "B": "All artifacts are equally durable",
+        "C": "Preservation is not the same as historical prevalence",
+        "D": "Pottery cannot reveal anything"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Absence always proves nonexistence” is not supported by the passage; the relevant detail is “Preservation is not the same as historical prevalence”.",
+        "B": "“All artifacts are equally durable” is not supported by the passage; the relevant detail is “Preservation is not the same as historical prevalence”.",
+        "C": "The passage explicitly supports “Preservation is not the same as historical prevalence”.",
+        "D": "“Pottery cannot reveal anything” is not supported by the passage; the relevant detail is “Preservation is not the same as historical prevalence”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Preservation is not the same as historical prevalence"
+    },
+    {
+      "id": "R041",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-09",
+      "question": "What vulnerability can coexist with high accuracy?",
+      "options": {
+        "A": "Guaranteed portability",
+        "B": "Complete fairness",
+        "C": "Dependence on unstable variables",
+        "D": "Perfect causal understanding"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Guaranteed portability” is not supported by the passage; the relevant detail is “Dependence on unstable variables”.",
+        "B": "“Complete fairness” is not supported by the passage; the relevant detail is “Dependence on unstable variables”.",
+        "C": "The passage explicitly supports “Dependence on unstable variables”.",
+        "D": "“Perfect causal understanding” is not supported by the passage; the relevant detail is “Dependence on unstable variables”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Dependence on unstable variables"
+    },
+    {
+      "id": "R042",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-09",
+      "question": "What might a hospital model learn unintentionally?",
+      "options": {
+        "A": "Only genetic mutations",
+        "B": "Only disease severity",
+        "C": "Patterns of access to care",
+        "D": "Only laboratory calibration"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Only genetic mutations” is not supported by the passage; the relevant detail is “Patterns of access to care”.",
+        "B": "“Only disease severity” is not supported by the passage; the relevant detail is “Patterns of access to care”.",
+        "C": "The passage explicitly supports “Patterns of access to care”.",
+        "D": "“Only laboratory calibration” is not supported by the passage; the relevant detail is “Patterns of access to care”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Patterns of access to care"
+    },
+    {
+      "id": "R043",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-09",
+      "question": "Why might performance deteriorate elsewhere?",
+      "options": {
+        "A": "Institutional context may change",
+        "B": "Hospitals stop collecting data",
+        "C": "The equations change automatically",
+        "D": "All patients become identical"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Institutional context may change”.",
+        "B": "“Hospitals stop collecting data” is not supported by the passage; the relevant detail is “Institutional context may change”.",
+        "C": "“The equations change automatically” is not supported by the passage; the relevant detail is “Institutional context may change”.",
+        "D": "“All patients become identical” is not supported by the passage; the relevant detail is “Institutional context may change”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Institutional context may change"
+    },
+    {
+      "id": "R044",
+      "section": "Reading",
+      "level": "C1",
+      "assetId": "reading-09",
+      "question": "What must robust evaluation examine?",
+      "options": {
+        "A": "Only marketing materials",
+        "B": "Only processor speed",
+        "C": "The data-generating process",
+        "D": "Only interface colors"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Only marketing materials” is not supported by the passage; the relevant detail is “The data-generating process”.",
+        "B": "“Only processor speed” is not supported by the passage; the relevant detail is “The data-generating process”.",
+        "C": "The passage explicitly supports “The data-generating process”.",
+        "D": "“Only interface colors” is not supported by the passage; the relevant detail is “The data-generating process”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "The data-generating process"
+    },
+    {
+      "id": "R045",
+      "section": "Reading",
+      "level": "C2",
+      "assetId": "reading-09",
+      "question": "What is the central claim?",
+      "options": {
+        "A": "Accuracy alone does not guarantee transferability",
+        "B": "Hospitals should never use statistics",
+        "C": "Models cannot be useful",
+        "D": "More data always solves every problem"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Accuracy alone does not guarantee transferability”.",
+        "B": "“Hospitals should never use statistics” is not supported by the passage; the relevant detail is “Accuracy alone does not guarantee transferability”.",
+        "C": "“Models cannot be useful” is not supported by the passage; the relevant detail is “Accuracy alone does not guarantee transferability”.",
+        "D": "“More data always solves every problem” is not supported by the passage; the relevant detail is “Accuracy alone does not guarantee transferability”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Accuracy alone does not guarantee transferability"
+    },
+    {
+      "id": "R046",
+      "section": "Reading",
+      "level": "C2",
+      "assetId": "reading-10",
+      "question": "Why is observed compliance insufficient evidence of policy success?",
+      "options": {
+        "A": "All people share identical motives",
+        "B": "Compliance can arise from different motivations",
+        "C": "Sanctions are always illegal",
+        "D": "Compliance is never measurable"
+      },
+      "correctAnswer": "B",
+      "explanations": {
+        "A": "“All people share identical motives” is not supported by the passage; the relevant detail is “Compliance can arise from different motivations”.",
+        "B": "The passage explicitly supports “Compliance can arise from different motivations”.",
+        "C": "“Sanctions are always illegal” is not supported by the passage; the relevant detail is “Compliance can arise from different motivations”.",
+        "D": "“Compliance is never measurable” is not supported by the passage; the relevant detail is “Compliance can arise from different motivations”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Compliance can arise from different motivations"
+    },
+    {
+      "id": "R047",
+      "section": "Reading",
+      "level": "C2",
+      "assetId": "reading-10",
+      "question": "Which motivation may depend heavily on continued monitoring?",
+      "options": {
+        "A": "Strong personal endorsement",
+        "B": "Unconditional moral conviction",
+        "C": "Fear of sanctions",
+        "D": "Deeply internalized values"
+      },
+      "correctAnswer": "C",
+      "explanations": {
+        "A": "“Strong personal endorsement” is not supported by the passage; the relevant detail is “Fear of sanctions”.",
+        "B": "“Unconditional moral conviction” is not supported by the passage; the relevant detail is “Fear of sanctions”.",
+        "C": "The passage explicitly supports “Fear of sanctions”.",
+        "D": "“Deeply internalized values” is not supported by the passage; the relevant detail is “Fear of sanctions”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Fear of sanctions"
+    },
+    {
+      "id": "R048",
+      "section": "Reading",
+      "level": "C2",
+      "assetId": "reading-10",
+      "question": "What can persist without constant supervision?",
+      "options": {
+        "A": "Internalized norms",
+        "B": "Only formal warnings",
+        "C": "Only surveillance systems",
+        "D": "Only financial penalties"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Internalized norms”.",
+        "B": "“Only formal warnings” is not supported by the passage; the relevant detail is “Internalized norms”.",
+        "C": "“Only surveillance systems” is not supported by the passage; the relevant detail is “Internalized norms”.",
+        "D": "“Only financial penalties” is not supported by the passage; the relevant detail is “Internalized norms”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Internalized norms"
+    },
+    {
+      "id": "R049",
+      "section": "Reading",
+      "level": "C2",
+      "assetId": "reading-10",
+      "question": "What complicates a strict incentives-versus-values distinction?",
+      "options": {
+        "A": "Institutions also shape normative commitments",
+        "B": "Values never change",
+        "C": "Institutions have no influence",
+        "D": "Incentives cannot affect behavior"
+      },
+      "correctAnswer": "A",
+      "explanations": {
+        "A": "The passage explicitly supports “Institutions also shape normative commitments”.",
+        "B": "“Values never change” is not supported by the passage; the relevant detail is “Institutions also shape normative commitments”.",
+        "C": "“Institutions have no influence” is not supported by the passage; the relevant detail is “Institutions also shape normative commitments”.",
+        "D": "“Incentives cannot affect behavior” is not supported by the passage; the relevant detail is “Institutions also shape normative commitments”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Institutions also shape normative commitments"
+    },
+    {
+      "id": "R050",
+      "section": "Reading",
+      "level": "C2",
+      "assetId": "reading-10",
+      "question": "Which conclusion best reflects the passage?",
+      "options": {
+        "A": "All compliance is voluntary",
+        "B": "Norms are independent of institutions",
+        "C": "Enforcement always fails",
+        "D": "Behavior and motivation must both be examined"
+      },
+      "correctAnswer": "D",
+      "explanations": {
+        "A": "“All compliance is voluntary” is not supported by the passage; the relevant detail is “Behavior and motivation must both be examined”.",
+        "B": "“Norms are independent of institutions” is not supported by the passage; the relevant detail is “Behavior and motivation must both be examined”.",
+        "C": "“Enforcement always fails” is not supported by the passage; the relevant detail is “Behavior and motivation must both be examined”.",
+        "D": "The passage explicitly supports “Behavior and motivation must both be examined”."
+      },
+      "skill": "Reading comprehension",
+      "reviewEvidence": "Behavior and motivation must both be examined"
+    }
+  ]
+}
