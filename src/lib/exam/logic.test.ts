@@ -64,7 +64,9 @@ describe("exam rules", () => {
 
         for (const positions of groups.values()) {
           expect(positions).toHaveLength(5);
-          expect(positions[4] - positions[0]).toBe(4);
+          const sorted = [...positions].sort((a, b) => a - b);
+          const first = sorted[0] ?? -1;
+          expect(sorted).toEqual([first, first + 1, first + 2, first + 3, first + 4]);
         }
       }
     }
