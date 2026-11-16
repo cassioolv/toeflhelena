@@ -26,7 +26,12 @@ const TIPS: Record<string, string> = {
 function Result() {
   const { ready, bank, attempt, setAttempt } = useFinished();
   if (!ready || !attempt || attempt.stage !== "done") return null;
-  const s = scoreExam(bank.questions, attempt.answers);
+  
+const selectedQuestions = bank.questions.filter(
+  (q) => attempt.questionIds?.includes(q.id)
+);
+const s = scoreExam(selectedQuestions, attempt.answers);
+
   const level = estimateLevel(s);
   const pct = (c: number, t: number) => (t ? Math.round((c / t) * 100) : 0);
   const sectionData = SECTIONS.map((x) => ({ name: x.name.split(" ")[0], pct: pct(s.bySection[x.id].correct, s.bySection[x.id].total) }));
