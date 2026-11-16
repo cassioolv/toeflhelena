@@ -1,12 +1,11 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ExamRunner } from "@/components/exam/ExamRunner";
 import { newAttempt, useExamData } from "@/lib/exam/store";
 import { selectExamQuestions } from "@/lib/exam/logic";
 import { SECTIONS } from "@/lib/exam/types";
-import video from "@/assets/gordao_msn.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
