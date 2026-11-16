@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import staticBank from "./questoes_280.json";
 import { validateBank } from "./logic";
+import { normalizeBank } from "./bank-format";
 import { SECTIONS, type Letter, type Question } from "./types";
 
 const BANK_KEY = "helena.bank.v1";
@@ -22,7 +23,7 @@ export interface Attempt {
 
 
 export function loadBank(): { questions: Question[]; demo: boolean } {
-  const validated = validateBank(staticBank);
+  const validated = validateBank(normalizeBank(staticBank));
 
   if (validated.errors.length) {
     console.error("Erros no banco de questões:", validated.errors);
