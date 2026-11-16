@@ -27,10 +27,17 @@ function Result() {
   const { ready, bank, attempt, setAttempt } = useFinished();
   if (!ready || !attempt || attempt.stage !== "done") return null;
   
-const selectedQuestions = bank.questions.filter(
-  (q) => attempt.questionIds?.includes(q.id)
+
+const questionsById = new Map(
+  bank.questions.map((q) => [q.id, q])
 );
+
+const selectedQuestions = (attempt.questionIds ?? [])
+  .map((id) => questionsById.get(id))
+  .filter((q): q is (typeof bank.questions)[number] => q !== undefined);
+
 const s = scoreExam(selectedQuestions, attempt.answers);
+
 
   const level = estimateLevel(s);
   const pct = (c: number, t: number) => (t ? Math.round((c / t) * 100) : 0);
