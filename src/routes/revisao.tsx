@@ -30,7 +30,11 @@ function Review() {
   const { ready, bank, attempt } = useFinished();
   const [res, setRes] = useState("all"); const [sec, setSec] = useState("all"); const [lvl, setLvl] = useState("all");
   if (!ready || !attempt || attempt.stage !== "done") return null;
-  const list = bank.questions.filter((q) => {
+  const selectedQuestions = bank.questions.filter(
+  (q) => attempt.questionIds?.includes(q.id)
+);
+
+const list = selectedQuestions.filter((q) => {
     const ok = attempt.answers[q.id] === q.correct;
     return (res === "all" || (res === "right" ? ok : !ok)) && (sec === "all" || q.section === sec) && (lvl === "all" || q.cefr === lvl);
   });
@@ -47,7 +51,7 @@ function Review() {
           <select className={sel} value={lvl} onChange={(e) => setLvl(e.target.value)}><option value="all">Todos os níveis</option>{CEFR_ORDER.map((c) => <option key={c}>{c}</option>)}</select>
           <span className="self-center text-sm text-muted-foreground">{list.length} questão(ões)</span>
         </div>
-        {list.map((q) => <Item key={q.id} q={q} n={bank.questions.indexOf(q) + 1} chosen={attempt.answers[q.id]} />)}
+        {list.map((q) => <Item key={q.id} q={q} n={selectedQuestions.indexOf(q) + 1} chosen={attempt.answers[q.id]} />)}
       </main>
     </div>
   );
