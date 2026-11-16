@@ -64,7 +64,7 @@ if (attempt?.stage === "exam") {
           {SECTIONS.map((s) => <div key={s.id}><p className="font-display text-3xl text-gold">{s.minutes}′</p><p>{s.name.split(" ")[0]}</p></div>)}
         </div>
         <div className="mt-12 flex flex-col items-center gap-4">
-          <Button size="lg" variant="secondary" className="h-14 px-10 text-lg" onClick={() => { setFading(false); setVideoError(false); setPhase("video"); }}>Iniciar Simulado</Button>
+          <Button size="lg" variant="secondary" className="h-14 px-10 text-lg" onClick={() => { endingRef.current = false; setFading(false); setVideoError(false); setPhase("video"); }}>Iniciar Simulado</Button>
           {attempt?.stage === "done" && <Link to="/resultado" className="text-sm text-gold underline-offset-4 hover:underline">Ver resultado da última prova</Link>}
         </div>
         {bank.demo && <p className="mt-8 max-w-md text-xs opacity-60">Modo demonstração: o banco definitivo de questões ainda não foi importado.</p>}
@@ -85,7 +85,7 @@ if (attempt?.stage === "exam") {
           )}
           {phase === "video" && videoError && (
             <div className="relative max-w-md space-y-4 rounded-md bg-card p-6 text-foreground">
-              <p className="text-sm"><strong>Aviso ao administrador:</strong> o vídeo "gordao msn.mp4" não pôde ser carregado.</p>
+              <p className="text-sm"><strong>Aviso ao administrador:</strong> o vídeo "maomao_30-37.mp4" não pôde ser carregado.</p>
               <Button onClick={() => setPhase("message")}>Continuar</Button>
             </div>
           )}
