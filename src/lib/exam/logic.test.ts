@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { DEMO_QUESTIONS } from "./demo";
-import { estimateLevel, scoreExam, validateBank } from "./logic";
+import { estimateLevel, scoreExam, validateBank, selectExamQuestions } from "./logic";
+import staticBank from "./questoes_280.json";
+import { CEFR_ORDER, CEFR_TARGET, SECTIONS } from "./types";
 import { advanceSection, newAttempt } from "./store";
 
 describe("exam rules", () => {
@@ -29,5 +31,42 @@ describe("exam rules", () => {
     const all = Object.fromEntries(DEMO_QUESTIONS.map((q) => [q.id, q.correct]));
     expect(estimateLevel(scoreExam(DEMO_QUESTIONS, all))).toBe("C1");
     expect(estimateLevel(scoreExam(DEMO_QUESTIONS, {}))).toBe("Abaixo de A1");
+  });
+  
+  it("sorteia 140 questões do banco de 280 respeitando as cotas", () => {
+    const validated = validateBank(staticBank);
+
+    expect(validated.errors).toEqual([]);
+    expect(validated.questions).toHaveLength(280);
+
+    for (let i = 0; i < 10; i++) {
+      const exam = selectExamQuestions(validated.questions);
+
+      expect(exam).toHaveLength(140);
+      expect(new Set(exam.map((q) => q.id)).size).toBe(140);
+
+      for (const section of SECTIONS) {
+        expect(exam.filter((q) => q.section === section.id)).toHaveLength(section.count);
+      }
+
+      for (const level of CEFR_ORDER) {
+        expect(exam.filter((q) => q.cefr === level)).toHaveLength(CEFR_TARGET[level]);
+      }
+
+      for (const section of ["listening", "reading"] as const) {
+        const questions = exam.filter((q) => q.section === section);
+        const groups = new Map<string, number[]>();
+
+        questions.forEach((q, index) => {
+          const key = section === "listening" ? q.audioId ?? q.id : q.passage ?? q.id;
+          groups.set(key, [...(groups.get(key) ?? []), index]);
+        });
+
+        for (const positions of groups.values()) {
+          expect(positions).toHaveLength(5);
+          expect(positions[4] - positions[0]).toBe(4);
+        }
+      }
+    }
   });
 });
