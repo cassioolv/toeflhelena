@@ -48,17 +48,37 @@ export function validateBank(raw: unknown, { requireComplete = true } = {}): Val
     if (q.evidence && q.passage && !q.passage.includes(q.evidence)) warnings.push(`${tag}: trecho de evidência não encontrado no texto.`);
     out.push(q as Question);
   });
-  if (requireComplete && out.length === TOTAL_QUESTIONS) {
-    if (out.length !== TOTAL_QUESTIONS) errors.push(`O banco tem ${out.length} questões; são necessárias ${TOTAL_QUESTIONS}.`);
+  
+  if (requireComplete) {
+    const expectedTotal = TOTAL_QUESTIONS * 2;
+
+    if (out.length !== TOTAL_QUESTIONS && out.length !== expectedTotal) {
+      errors.push(
+        `O banco tem ${out.length} questões; são necessárias 140 ou 280.`
+      );
+    }
+
+    const multiplier = out.length === expectedTotal ? 2 : 1;
+
     SECTIONS.forEach((s) => {
       const n = out.filter((q) => q.section === s.id).length;
-      if (n !== s.count) errors.push(`${s.name}: ${n} questões (esperado ${s.count}).`);
+      const expected = s.count * multiplier;
+
+      if (n !== expected) {
+        errors.push(`${s.name}: ${n} questões (esperado ${expected}).`);
+      }
     });
+
     CEFR_ORDER.forEach((c) => {
       const n = out.filter((q) => q.cefr === c).length;
-      if (n !== CEFR_TARGET[c]) errors.push(`Nível ${c}: ${n} questões (esperado ${CEFR_TARGET[c]}).`);
+      const expected = CEFR_TARGET[c] * multiplier;
+
+      if (n !== expected) {
+        errors.push(`Nível ${c}: ${n} questões (esperado ${expected}).`);
+      }
     });
   }
+
   return { errors, warnings, questions: errors.length ? [] : orderQuestions(out) };
 }
 
