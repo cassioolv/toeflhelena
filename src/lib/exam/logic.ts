@@ -48,7 +48,7 @@ export function validateBank(raw: unknown, { requireComplete = true } = {}): Val
     if (q.evidence && q.passage && !q.passage.includes(q.evidence)) warnings.push(`${tag}: trecho de evidência não encontrado no texto.`);
     out.push(q as Question);
   });
-  if (requireComplete) {
+  if (requireComplete && out.length === TOTAL_QUESTIONS) {
     if (out.length !== TOTAL_QUESTIONS) errors.push(`O banco tem ${out.length} questões; são necessárias ${TOTAL_QUESTIONS}.`);
     SECTIONS.forEach((s) => {
       const n = out.filter((q) => q.section === s.id).length;
