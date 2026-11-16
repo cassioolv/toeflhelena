@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from "react";
-import staticBank from "./questoes_140.json";
-import { orderQuestions, validateBank } from "./logic";
+import staticBank from "./questoes_280.json";
+import { validateBank } from "./logic";
 import { SECTIONS, type Letter, type Question } from "./types";
 
 const BANK_KEY = "helena.bank.v1";
@@ -20,15 +20,16 @@ export interface Attempt {
   finishedAt?: number;
 }
 
+
 export function loadBank(): { questions: Question[]; demo: boolean } {
-  try {
-    const raw = localStorage.getItem(BANK_KEY);
-    if (raw) {
-      const validated = validateBank(JSON.parse(raw));
-      if (!validated.errors.length) return { questions: validated.questions, demo: false };
-    }
-  } catch {}
-  return { questions: validateBank(staticBank).questions, demo: false };
+  const validated = validateBank(staticBank);
+
+  if (validated.errors.length) {
+    console.error("Erros no banco de questões:", validated.errors);
+    return { questions: [], demo: false };
+  }
+
+  return { questions: validated.questions, demo: false };
 }
 export function saveBank(qs: Question[]) { localStorage.setItem(BANK_KEY, JSON.stringify(qs)); }
 export function clearBank() { localStorage.removeItem(BANK_KEY); }
