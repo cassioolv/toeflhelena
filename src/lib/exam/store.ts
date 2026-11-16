@@ -16,6 +16,7 @@ export interface Attempt {
   flags: Record<string, boolean>;
   plays: Record<string, number>;
   usesDemo: boolean;
+  questionIds?: string[];
   finishedAt?: number;
 }
 
@@ -39,11 +40,28 @@ export function saveAttempt(a: Attempt | null) {
   if (a) localStorage.setItem(ATTEMPT_KEY, JSON.stringify(a)); else localStorage.removeItem(ATTEMPT_KEY);
 }
 
-export function newAttempt(demo: boolean, now = Date.now()): Attempt {
+
+export function newAttempt(
+  demo: boolean,
+  now = Date.now(),
+  questionIds: string[] = []
+): Attempt {
   const first = SECTIONS[0];
   if (!first) throw new Error("Nenhuma seção configurada.");
-  return { stage: "exam", sectionIdx: 0, sectionEndsAt: now + first.minutes * 60_000, cursor: {}, answers: {}, flags: {}, plays: {}, usesDemo: demo };
+
+  return {
+    stage: "exam",
+    sectionIdx: 0,
+    sectionEndsAt: now + first.minutes * 60_000,
+    cursor: {},
+    answers: {},
+    flags: {},
+    plays: {},
+    usesDemo: demo,
+    questionIds,
+  };
 }
+
 
 /** Move to the next section (or finish). Pure, for testing. */
 export function advanceSection(a: Attempt, now = Date.now()): Attempt {
