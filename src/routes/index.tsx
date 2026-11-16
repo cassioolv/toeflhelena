@@ -26,6 +26,7 @@ function Index() {
   const [phase, setPhase] = useState<"idle" | "video" | "message">("idle");
   const [videoError, setVideoError] = useState(false);
   const [fading, setFading] = useState(false);
+  const endingRef = useRef(false);
 
   if (!ready) return <div className="min-h-screen bg-hero" />;
  
@@ -76,11 +77,11 @@ if (attempt?.stage === "exam") {
         <div className="fixed inset-0 z-[100] flex items-center justify-center">
           <div className={cn("absolute inset-0 bg-primary/70 backdrop-blur-sm transition-opacity duration-700", phase === "message" && "bg-primary/90")} />
           {phase === "video" && !videoError && (
-            <video src={video.url} autoPlay playsInline controls={false} disablePictureInPicture
-              onEnded={() => setPhase("message")} onError={() => setVideoError(true)}
+            <video src="/maomao_30-37.mp4" autoPlay muted loop playsInline controls={false} disablePictureInPicture
+              onError={() => setVideoError(true)}
               onContextMenu={(e) => e.preventDefault()}
               className={cn("wink-video pointer-events-none relative h-[85vh] max-w-[95vw] object-contain transition-opacity duration-700", fading && "opacity-0")}
-              onTimeUpdate={(e) => { const v = e.currentTarget; if (v.duration && v.duration - v.currentTime < 0.7) setFading(true); }} />
+              onTimeUpdate={(e) => { const v = e.currentTarget; if (endingRef.current || !v.duration) return; if (v.duration - v.currentTime < 0.7) { endingRef.current = true; setFading(true); window.setTimeout(() => setPhase("message"), 700); } }} />
           )}
           {phase === "video" && videoError && (
             <div className="relative max-w-md space-y-4 rounded-md bg-card p-6 text-foreground">
