@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ExamRunner } from "@/components/exam/ExamRunner";
 import { newAttempt, useExamData } from "@/lib/exam/store";
+import { selectExamQuestions } from "@/lib/exam/logic";
 import { SECTIONS } from "@/lib/exam/types";
 import video from "@/assets/gordao_msn.mp4.asset.json";
 
@@ -28,7 +29,21 @@ function Index() {
   const [fading, setFading] = useState(false);
 
   if (!ready) return <div className="min-h-screen bg-hero" />;
-  if (attempt?.stage === "exam") return <ExamRunner questions={bank.questions} attempt={attempt} setAttempt={setAttempt} />;
+ 
+if (attempt?.stage === "exam") {
+  const selectedQuestions = bank.questions.filter(
+    (q) => attempt.questionIds?.includes(q.id)
+  );
+
+  return (
+    <ExamRunner
+      questions={selectedQuestions}
+      attempt={attempt}
+      setAttempt={setAttempt}
+    />
+  );
+}
+
 
   return (
     <div className="flex min-h-screen flex-col bg-hero text-primary-foreground">
@@ -71,7 +86,8 @@ function Index() {
           {phase === "message" && (
             <div className="relative animate-in fade-in zoom-in-95 space-y-8 px-6 text-center duration-700">
               <p className="font-display text-5xl font-semibold">KKKKKK te amo, meu amor! ❤️ Boa prova!</p>
-              <Button size="lg" variant="secondary" className="h-14 px-10 text-lg" onClick={() => { setAttempt(newAttempt(bank.demo)); setPhase("idle"); }}>Agora é sério!</Button>
+              <Button size="lg" variant="secondary" className="h-14 px-10 text-lg" onClick={() => {const selected = selectExamQuestions(bank.questions);
+setAttempt(newAttempt(bank.demo, Date.now(), selected.map((q) => q.id))); setPhase("idle"); }}>Agora é sério!</Button>
             </div>
           )}
         </div>
