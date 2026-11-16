@@ -135,7 +135,10 @@ export function selectExamQuestions(bank: Question[]): Question[] {
 
     for (let i = result.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [result[i], result[j]] = [result[j], result[i]];
+      const a = result[i] as T;
+      const b = result[j] as T;
+      result[i] = b;
+      result[j] = a;
     }
 
     return result;
