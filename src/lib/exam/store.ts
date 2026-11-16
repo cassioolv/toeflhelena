@@ -80,9 +80,19 @@ export function useExamData() {
   useEffect(() => {
     setBank(loadBank());
     const saved = loadAttempt();
-    // Old demo answers cannot be scored against the new complete bank.
-    if (saved?.usesDemo) { saveAttempt(null); setAttemptState(null); }
-    else setAttemptState(saved);
+    // Descarta tentativas antigas incompatíveis com o sorteio de 140 questões.
+    const invalidAttempt =
+      saved?.usesDemo ||
+      (saved !== null &&
+        (!Array.isArray(saved.questionIds) ||
+          saved.questionIds.length !== 140));
+
+    if (invalidAttempt) {
+      saveAttempt(null);
+      setAttemptState(null);
+    } else {
+      setAttemptState(saved);
+    }
     setReady(true);
   }, []);
   const setAttempt = useCallback((u: Attempt | null | ((a: Attempt | null) => Attempt | null)) => {
