@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
-import staticBank from "./questoes_140.json";
-import { orderQuestions, validateBank } from "./logic";
+import staticBank from "./questoes_280.json";
+import { validateBank } from "./logic";
+import { normalizeBank } from "./bank-format";
 import { SECTIONS, type Letter, type Question } from "./types";
 
 const BANK_KEY = "helena.bank.v1";
@@ -16,18 +17,20 @@ export interface Attempt {
   flags: Record<string, boolean>;
   plays: Record<string, number>;
   usesDemo: boolean;
+  questionIds?: string[];
   finishedAt?: number;
 }
 
+
 export function loadBank(): { questions: Question[]; demo: boolean } {
-  try {
-    const raw = localStorage.getItem(BANK_KEY);
-    if (raw) {
-      const validated = validateBank(JSON.parse(raw));
-      if (!validated.errors.length) return { questions: validated.questions, demo: false };
-    }
-  } catch {}
-  return { questions: validateBank(staticBank).questions, demo: false };
+  const validated = validateBank(normalizeBank(staticBank));
+
+  if (validated.errors.length) {
+    console.error("Erros no banco de questões:", validated.errors);
+    return { questions: [], demo: false };
+  }
+
+  return { questions: validated.questions, demo: false };
 }
 export function saveBank(qs: Question[]) { localStorage.setItem(BANK_KEY, JSON.stringify(qs)); }
 export function clearBank() { localStorage.removeItem(BANK_KEY); }
@@ -39,11 +42,28 @@ export function saveAttempt(a: Attempt | null) {
   if (a) localStorage.setItem(ATTEMPT_KEY, JSON.stringify(a)); else localStorage.removeItem(ATTEMPT_KEY);
 }
 
-export function newAttempt(demo: boolean, now = Date.now()): Attempt {
+
+export function newAttempt(
+  demo: boolean,
+  now = Date.now(),
+  questionIds: string[] = []
+): Attempt {
   const first = SECTIONS[0];
   if (!first) throw new Error("Nenhuma seção configurada.");
-  return { stage: "exam", sectionIdx: 0, sectionEndsAt: now + first.minutes * 60_000, cursor: {}, answers: {}, flags: {}, plays: {}, usesDemo: demo };
+
+  return {
+    stage: "exam",
+    sectionIdx: 0,
+    sectionEndsAt: now + first.minutes * 60_000,
+    cursor: {},
+    answers: {},
+    flags: {},
+    plays: {},
+    usesDemo: demo,
+    questionIds,
+  };
 }
+
 
 /** Move to the next section (or finish). Pure, for testing. */
 export function advanceSection(a: Attempt, now = Date.now()): Attempt {
@@ -60,9 +80,19 @@ export function useExamData() {
   useEffect(() => {
     setBank(loadBank());
     const saved = loadAttempt();
-    // Old demo answers cannot be scored against the new complete bank.
-    if (saved?.usesDemo) { saveAttempt(null); setAttemptState(null); }
-    else setAttemptState(saved);
+    // Descarta tentativas antigas incompatíveis com o sorteio de 140 questões.
+    const invalidAttempt =
+      saved?.usesDemo ||
+      (saved !== null &&
+        (!Array.isArray(saved.questionIds) ||
+          saved.questionIds.length !== 140));
+
+    if (invalidAttempt) {
+      saveAttempt(null);
+      setAttemptState(null);
+    } else {
+      setAttemptState(saved);
+    }
     setReady(true);
   }, []);
   const setAttempt = useCallback((u: Attempt | null | ((a: Attempt | null) => Attempt | null)) => {

@@ -1,0 +1,31 @@
+
+name: Testes do Simulado Helena
+
+on:
+  push:
+    branches:
+      - toefl-280-questoes
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Instalar dependencias
+        run: bun install --frozen-lockfile
+
+      - name: Executar testes
+        run: bunx vitest run
+
+      - name: Verificar compilacao
+        run: bun run build
