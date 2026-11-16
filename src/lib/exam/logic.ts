@@ -102,3 +102,162 @@ export function estimateLevel(score: Score): Cefr | "Abaixo de A1" {
   }
   return level;
 }
+
+
+/**
+ * Sorteia uma prova de 140 questões a partir de um banco maior.
+ * Mantém as cotas por seção e por nível CEFR.
+ * Listening e Reading preservam grupos de cinco questões.
+ */
+export function selectExamQuestions(bank: Question[]): Question[] {
+  const shuffle = <T,>(items: T[]): T[] => {
+    const result = [...items];
+
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+
+    return result;
+  };
+
+  const groupQuestions = (section: SectionId): Question[][] => {
+    const groups = new Map<string, Question[]>();
+
+    for (const q of bank.filter((x) => x.section === section)) {
+      const key =
+        section === "listening"
+          ? q.audioId ?? q.id
+          : q.passage ?? q.id;
+
+      const group = groups.get(key) ?? [];
+      group.push(q);
+      groups.set(key, group);
+    }
+
+    return shuffle([...groups.values()]);
+  };
+
+  const listeningGroups = groupQuestions("listening");
+  const readingGroups = groupQuestions("reading");
+  const structure = bank.filter((q) => q.section === "structure");
+
+  const listeningTarget =
+    SECTIONS.find((s) => s.id === "listening")!.count;
+  const readingTarget =
+    SECTIONS.find((s) => s.id === "reading")!.count;
+  const structureTarget =
+    SECTIONS.find((s) => s.id === "structure")!.count;
+
+  const availableStructure = Object.fromEntries(
+    CEFR_ORDER.map((level) => [
+      level,
+      structure.filter((q) => q.cefr === level).length,
+    ])
+  ) as Record<Cefr, number>;
+
+  // Sorteia grupos completos de Listening e Reading.
+  // Depois completa as cotas CEFR com Structure.
+  for (let attempt = 0; attempt < 10000; attempt++) {
+    const chooseGroups = (
+      groups: Question[][],
+      target: number
+    ): Question[] | null => {
+      const selected: Question[] = [];
+
+      for (const group of shuffle(groups)) {
+        if (selected.length + group.length <= target) {
+          selected.push(...group);
+        }
+
+        if (selected.length === target) break;
+      }
+
+      return selected.length === target ? selected : null;
+    };
+
+    const listening = chooseGroups(
+      listeningGroups,
+      listeningTarget
+    );
+
+    const reading = chooseGroups(
+      readingGroups,
+      readingTarget
+    );
+
+    if (!listening || !reading) continue;
+
+    const selected = [...listening, ...reading];
+
+    const needed = Object.fromEntries(
+      CEFR_ORDER.map((level) => [
+        level,
+        CEFR_TARGET[level] -
+          selected.filter((q) => q.cefr === level).length,
+      ])
+    ) as Record<Cefr, number>;
+
+    if (
+      CEFR_ORDER.some(
+        (level) =>
+          needed[level] < 0 ||
+          needed[level] > availableStructure[level]
+      )
+    ) {
+      continue;
+    }
+
+    const chosenStructure = CEFR_ORDER.flatMap((level) =>
+      shuffle(
+        structure.filter((q) => q.cefr === level)
+      ).slice(0, needed[level])
+    );
+
+    if (chosenStructure.length !== structureTarget) {
+      continue;
+    }
+
+    const exam = [...selected, ...chosenStructure];
+
+    if (exam.length !== TOTAL_QUESTIONS) continue;
+
+    const ids = new Set(exam.map((q) => q.id));
+
+    if (ids.size !== TOTAL_QUESTIONS) continue;
+
+    // Mantém os grupos de áudio e leitura próximos,
+    // sem separar perguntas do mesmo texto.
+    const ordered = SECTIONS.flatMap((section) => {
+      const sectionQuestions = exam.filter(
+        (q) => q.section === section.id
+      );
+
+      if (section.id === "structure") {
+        return shuffle(sectionQuestions);
+      }
+
+      const groups = new Map<string, Question[]>();
+
+      for (const q of sectionQuestions) {
+        const key =
+          section.id === "listening"
+            ? q.audioId ?? q.id
+            : q.passage ?? q.id;
+
+        const group = groups.get(key) ?? [];
+        group.push(q);
+        groups.set(key, group);
+      }
+
+      return shuffle([...groups.values()]).flat();
+    });
+
+    return ordered;
+  }
+
+  throw new Error(
+    "Não foi possível montar uma prova com as cotas exigidas. Verifique a distribuição do banco."
+  );
+}
+
