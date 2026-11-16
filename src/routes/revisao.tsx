@@ -30,9 +30,15 @@ function Review() {
   const { ready, bank, attempt } = useFinished();
   const [res, setRes] = useState("all"); const [sec, setSec] = useState("all"); const [lvl, setLvl] = useState("all");
   if (!ready || !attempt || attempt.stage !== "done") return null;
-  const selectedQuestions = bank.questions.filter(
-  (q) => attempt.questionIds?.includes(q.id)
+  
+const questionsById = new Map(
+  bank.questions.map((q) => [q.id, q])
 );
+
+const selectedQuestions = (attempt.questionIds ?? [])
+  .map((id) => questionsById.get(id))
+  .filter((q): q is (typeof bank.questions)[number] => q !== undefined);
+
 
 const list = selectedQuestions.filter((q) => {
     const ok = attempt.answers[q.id] === q.correct;
