@@ -30,10 +30,16 @@ function Index() {
 
   if (!ready) return <div className="min-h-screen bg-hero" />;
  
+
 if (attempt?.stage === "exam") {
-  const selectedQuestions = bank.questions.filter(
-    (q) => attempt.questionIds?.includes(q.id)
+  const questionsById = new Map(
+    bank.questions.map((q) => [q.id, q])
   );
+
+  const selectedQuestions = (attempt.questionIds ?? [])
+    .map((id) => questionsById.get(id))
+    .filter((q): q is (typeof bank.questions)[number] => q !== undefined);
+
 
   return (
     <ExamRunner
